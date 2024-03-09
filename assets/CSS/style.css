@@ -19,6 +19,7 @@ body {
 /* Header */
 header {
     background-color: black;
+    width: 100%;
     display:flex;
     position:fixed;
     max-height: 5em;
@@ -29,6 +30,10 @@ header a {
     color: inherit;
 }
 
+header nav {
+    justify-content: flex-end;
+}
+
 /* Styles for the Logo IMAGE */
 #logo {
     padding: 5px;
@@ -36,8 +41,21 @@ header a {
 
 /* Styles for the Logo TEXT */
 #logo2 {
-    padding: 5px;
+    padding: 15px;
     font-size: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Styles for the Nav Menu */
+#menu {
+    display:flex;
+    list-style-type: none;
+    padding: 5px;
+    }
+
+#menu li {
+    padding: 5px;
 }
 
 /* Main Content */

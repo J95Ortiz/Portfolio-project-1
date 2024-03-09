@@ -41,8 +41,8 @@ header nav {
 
 /* Styles for the Logo TEXT */
 #logo2 {
-    padding: 15px;
-    font-size: 100%;
+    font-size: 75%;
+    padding: 5px;
     text-align: center;
     justify-content: center;
 }

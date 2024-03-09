@@ -19,6 +19,16 @@ body {
 /* Header */
 header {
     background-color: black;
+    display:flex;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    padding: 5px;
 }
 
 /* Main Content */

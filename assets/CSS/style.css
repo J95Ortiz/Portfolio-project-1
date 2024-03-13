@@ -34,31 +34,30 @@ header a {
 
 /* Styles for the Logo IMAGE */
 #logo {
-    padding: 5px;
+    padding: 6px;
 }
 
 /* Styles for the Logo TEXT */
 #logo2 {
     font-size: 75%;
-    padding: 5px;
     align-self: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-shrink: 1;
     text-align: center;
+    padding: 6px;
 }
 
 /* Styles for the Nav Menu */
 #menu {
-    display: flex;
+    display: block;
     justify-content: center;
     list-style-type: none;
-    padding: 5px;
 }
 
 #menu li {
     padding: 5px;
-}
+    }
 
 .active {
     border-bottom: 1px solid slateblue;
@@ -68,7 +67,7 @@ header a {
 nav {
     position: absolute;
     right: 0;
-    padding: 1rem;
+    padding: 6px;
     display: none;
     background-color: black;
     width: fit-content;
@@ -84,8 +83,9 @@ nav {
     display: none;
 }
 
-#nav-toggle-label {
+.nav-toggle-label {
     font-size: 2rem;
+    padding:6px 1rem;
 }
 
 /* Main Content */

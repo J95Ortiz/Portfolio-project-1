@@ -39,7 +39,7 @@ header a {
 
 /* Styles for the Logo TEXT */
 #logo2 {
-    font-size: 75%;
+    font-size: 90%;
     align-self: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -104,9 +104,16 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    /* Making logo2 take up more space in the header */
+    #logo2 {
+        font-size: 175%;
+    }
+
+    /* Styling Nav elements so it appears inside the header */
     nav {
         display: block;
         position: relative;
+        width: fit-content;
     }
 
     .nav-toggle-label {

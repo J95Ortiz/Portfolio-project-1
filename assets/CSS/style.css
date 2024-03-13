@@ -132,6 +132,7 @@ footer {
 
 /* Media query for laptops (992px +) */
 @media screen and (min-width: 992px) {
+    /* gives the elements an underlined when ohvered on */
     #menu a:hover {
         border-bottom: 1px solid slateblue;
     }

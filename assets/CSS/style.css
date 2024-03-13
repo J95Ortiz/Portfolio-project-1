@@ -41,11 +41,10 @@ header a {
 
 /* Styles for the Logo TEXT */
 #logo2 {
-    font-size: 90%;
+    font-size:large;
     align-self: center;
     justify-content: center;
     flex-wrap: wrap;
-    flex-shrink: 1;
     text-align: center;
     padding: 6px;
 }

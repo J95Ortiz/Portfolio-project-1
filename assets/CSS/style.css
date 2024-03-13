@@ -35,6 +35,8 @@ header a {
 /* Styles for the Logo IMAGE */
 #logo {
     padding: 6px;
+    margin-top: 1px;
+    border-radius: 50%;
 }
 
 /* Styles for the Logo TEXT */

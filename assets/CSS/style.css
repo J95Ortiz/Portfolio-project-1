@@ -99,3 +99,24 @@ main {
 footer {
     background-color: green;
 }
+
+/* Media query for tablets (768px +) */
+@media screen and (min-width: 768px) {
+    /* Header */
+   header {
+    display: flex; 
+    justify-content: center;
+   }
+
+    nav {
+        display: flex;
+   } 
+
+   .nav-toggle-label {
+    display: none;
+   }
+
+   #menu {
+    display: flex;
+   }
+}

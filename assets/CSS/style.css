@@ -57,7 +57,7 @@ header a {
 
 #menu li {
     padding: 5px;
-    }
+}
 
 .active {
     border-bottom: 1px solid slateblue;
@@ -85,7 +85,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    padding:6px 1rem;
+    padding: 6px 1rem;
 }
 
 /* Main Content */
@@ -102,21 +102,18 @@ footer {
 
 /* Media query for tablets (768px +) */
 @media screen and (min-width: 768px) {
+
     /* Header */
-   header {
-    display: flex; 
-    justify-content: center;
-   }
-
     nav {
+        display: block;
+        position: relative;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu {
         display: flex;
-   } 
-
-   .nav-toggle-label {
-    display: none;
-   }
-
-   #menu {
-    display: flex;
-   }
+    }
 }

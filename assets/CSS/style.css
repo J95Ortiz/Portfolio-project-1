@@ -109,10 +109,6 @@ footer {
 
     /* Header */
 
-    /* Making logo2 take up more space in the header */
-    #logo2 {
-        font-size: 175%;
-    }
 
     /* Styling Nav elements so it appears inside the header */
     nav {
@@ -131,5 +127,12 @@ footer {
 
     #menu > li {
         padding-right: 1rem;
+    }
+}
+
+/* Media query for laptops (992px +) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid slateblue;
     }
 }

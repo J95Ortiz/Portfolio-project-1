@@ -100,8 +100,12 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: green;
+#social {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Media query for tablets (768px +) */

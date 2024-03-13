@@ -57,7 +57,7 @@ header a {
     list-style-type: none;
 }
 
-#menu li {
+#menu > li {
     padding: 5px;
 }
 
@@ -95,6 +95,9 @@ main {
     background-color: yellow;
     /* Style below added to push footer to the bottom of the page */
     flex: 1 0 auto;
+    
+    /* Top margin applied to main to push content below Header */
+    margin-top: 77px;
 }
 
 /* Footer */
@@ -106,6 +109,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
     /* Making logo2 take up more space in the header */
     #logo2 {
         font-size: 175%;
@@ -124,5 +128,9 @@ footer {
 
     #menu {
         display: flex;
+    }
+
+    #menu > li {
+        padding-right: 1rem;
     }
 }

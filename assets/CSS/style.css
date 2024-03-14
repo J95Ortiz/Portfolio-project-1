@@ -98,6 +98,17 @@ main {
     margin-top: 77px;
 }
 
+section {
+    display: block;
+    border: 3px solid purple;
+    margin: 5px; /* Applied some margins so the background image is more noticeable */
+}
+
+section div {
+    display: flex;
+    border: 1px solid slateblue;
+}
+
 /* Footer */
 #social {
     text-align: center;

@@ -100,16 +100,21 @@ main {
 
 section {
     display: block;
-    border: 3px solid purple;
+    border: 3px solid slateblue;
     margin: 5px; /* Applied some margins so the background image is more noticeable */
 }
 
 /* styles applied to the divs in the section so they apply flexbox */
 section,  div {
     display: flex;
-    border: 1px solid slateblue;
+    border: 1px solid gray;
     justify-content: space-between;
 }
+
+#cl-cup {
+    background: url("../images/cl-trophy.webp") no-repeat center / cover;
+    height: 30vw;
+    width: 30vw;
 
 /* Footer */
 #social {
@@ -160,4 +165,5 @@ section,  div {
     #menu a:hover {
         border-bottom: 1px solid slateblue;
     }
+}
 }

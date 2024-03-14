@@ -115,6 +115,7 @@ section,  div {
     background: url("../images/cl-trophy.webp") no-repeat center / cover;
     height: 30vw;
     width: 30vw;
+}
 
 /* Footer */
 #social {
@@ -165,5 +166,4 @@ section,  div {
     #menu a:hover {
         border-bottom: 1px solid slateblue;
     }
-}
 }

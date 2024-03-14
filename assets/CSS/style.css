@@ -105,6 +105,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    border-top: 1px solid slategray; /* Added little border on the top so footer stands out due to BG image's color */
 }
 
 /* Below styles added to i elements so they look better in the footer */

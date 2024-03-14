@@ -104,9 +104,11 @@ section {
     margin: 5px; /* Applied some margins so the background image is more noticeable */
 }
 
-section div {
+/* styles applied to the divs in the section so they apply flexbox */
+section,  div {
     display: flex;
     border: 1px solid slateblue;
+    justify-content: space-between;
 }
 
 /* Footer */

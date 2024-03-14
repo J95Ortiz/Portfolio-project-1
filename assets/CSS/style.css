@@ -36,7 +36,7 @@ header a {
 #logo {
     padding: 6px;
     margin-top: 1px;
-    border-radius: 50%;
+    border-radius: 50%; /* Turns #logo into a circle */
 }
 
 /* Styles for the Logo TEXT */
@@ -106,6 +106,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+/* Below styles added to i elements so they look better in the footer */
+#social i {
+    font-size: 160%;
+    color: white;
+    padding: 5px;
 }
 
 /* Media query for tablets (768px +) */

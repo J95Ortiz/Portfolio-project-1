@@ -24,6 +24,7 @@ header {
     max-height: 5em;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid slateblue; /* Added slight bottom border to header to distinguish it easier */
 }
 
 header a {
@@ -60,7 +61,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid slateblue;
+    border-bottom: 1px solid slateblue; /* Adds a line under the active page */
 }
 
 /*  Navbar styles for dropdown toggle */
@@ -90,7 +91,8 @@ nav {
 
 /* Main Content */
 main {
-    background: url("../images/cover2.png") no-repeat center center/cover; /* Real Madrid Logo set as background */
+    background: url("../images/cover2.png") fixed center/cover; /* Real Madrid Logo set as background */
+    background-size: 450px;
     /* Style below added to push footer to the bottom of the page */
     flex: 1 0 auto;
     
@@ -98,23 +100,19 @@ main {
     margin-top: 77px;
 }
 
-section {
+div {
     display: block;
     border: 3px solid slateblue;
     margin: 5px; /* Applied some margins so the background image is more noticeable */
+    min-height: 150px;
 }
 
-/* styles applied to the divs in the section so they apply flexbox */
-section,  div {
+#middle {
+    background: url(../images/cl-trophy.webp) fixed cover;
+    background-size: contain;
     display: flex;
-    border: 1px solid gray;
     justify-content: space-between;
-}
-
-#cl-cup {
-    background: url("../images/cl-trophy.webp") no-repeat center / cover;
-    height: 30vw;
-    width: 30vw;
+    align-items: center;
 }
 
 /* Footer */

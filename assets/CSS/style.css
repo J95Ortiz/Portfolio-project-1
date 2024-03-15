@@ -100,18 +100,21 @@ main {
     margin-top: 77px;
 }
 
+/* Styles for the divs in the main content */
 div {
     display: block;
-    border: 3px solid slateblue;
+    border: 1px solid gray;
     margin: 5px; /* Applied some margins so the background image is more noticeable */
     min-height: 150px;
 }
 
+#scorers {
+    background-color: rgba(106, 90, 205, 0.75) /* Adds colour and transparency to this div */
+}
+
 #middle {
-    background: url(../images/cl-trophy.webp) fixed cover;
-    background-size: contain;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 

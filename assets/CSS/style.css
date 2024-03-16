@@ -92,7 +92,8 @@ nav {
 /* Main Content */
 main {
     background: url("../images/cover2.png") fixed center/cover; /* Real Madrid Logo set as background */
-    background-size: 450px;
+    background-size: 500px;
+    margin-top: 4em;
     /* Style below added to push footer to the bottom of the page */
     flex: 1 0 auto;
     
@@ -146,6 +147,15 @@ td, tr {
 }
 
 /* Footer */
+/* Styles added to ensure footer is fixed and sticks to the bottom of the page */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin-top: auto;
+    background-color: black;
+    min-height: 3em;
+}
 #social {
     text-align: center;
     padding: 5px;

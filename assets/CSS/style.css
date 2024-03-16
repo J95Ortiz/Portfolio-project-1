@@ -137,13 +137,18 @@ td, tr {
 
 /* Styles for the Bernabeu renovations video div */
 #bernabeu {
-    background-color: rgba(192, 192, 192, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center; /* Aligns the headline and video to the middle*/
+}
+
+#bernabeu > h2 {
+    background-color: rgba(0, 0, 0, 0.75); /* Added this style so the headline stands out more */
 }
 
 #bern-vid {
     width: 90%;
     height: 25%; /* Makes video size responsive but need to amend for tablets and bigger */
+    padding-bottom: 1em;
 }
 
 #middle {

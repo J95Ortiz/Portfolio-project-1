@@ -24,7 +24,8 @@ header {
     max-height: 5em;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid slateblue; /* Added slight bottom border to header to distinguish it easier */
+    border-bottom: 1px solid slateblue;
+    /* Added slight bottom border to header to distinguish it easier */
 }
 
 header a {
@@ -36,12 +37,13 @@ header a {
 #logo {
     padding: 6px;
     margin-top: 1px;
-    border-radius: 50%; /* Turns #logo into a circle */
+    border-radius: 50%;
+    /* Turns #logo into a circle */
 }
 
 /* Styles for the Logo TEXT */
 #logo2 {
-    font-size:large;
+    font-size: large;
     align-self: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -56,12 +58,13 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     padding: 5px;
 }
 
 .active {
-    border-bottom: 1px solid slateblue; /* Adds a line under the active page */
+    border-bottom: 1px solid slateblue;
+    /* Adds a line under the active page */
 }
 
 /*  Navbar styles for dropdown toggle */
@@ -91,26 +94,29 @@ nav {
 
 /* Main Content */
 main {
-    background: url("../images/cover2.png") fixed center/cover; /* Real Madrid Logo set as background */
+    background: url("../images/cover2.png") fixed center/cover;
+    /* Real Madrid Logo set as background */
     background-size: 500px;
     margin-top: 4em;
     /* Style below added to push footer to the bottom of the page */
     flex: 1 0 auto;
-    
-    /* Top margin applied to main to push content below Header */
+
+    /* Top margin applied to main to push content below Header and keep it on top of the footer */
     margin-top: 77px;
+    margin-bottom: 3em;
 }
 
 /* Style below added so that the div titles align in the center of their div*/
 h2 {
-    text-align: center; 
+    text-align: center;
 }
 
 /* Styles for the divs in the main content */
 div {
     display: block;
     border: 1px solid gray;
-    margin: 5px; /* Applied some margins so the background image is more noticeable */
+    margin: 5px;
+    /* Applied some margins so the background image is more noticeable */
     min-height: 50px;
 }
 
@@ -127,27 +133,34 @@ div {
 
 /* Styles for Scorers Table */
 #scorers {
-    background-color: rgba(106, 90, 205, 0.75); /* Adds colour and transparency to this div */
-    text-align: center; /* Makes the content in the scorers table align nicely */
+    background-color: rgba(106, 90, 205, 0.75);
+    /* Adds colour and transparency to this div */
+    text-align: center;
+    /* Makes the content in the scorers table align nicely */
 }
 
-td, tr {
-    border-bottom: blue solid 1px; /* Makes thetable look better by giving the rows a bottom border */
+td,
+tr {
+    border-bottom: blue solid 1px;
+    /* Makes thetable look better by giving the rows a bottom border */
 }
 
 /* Styles for the Bernabeu renovations video div */
 #bernabeu {
     background-color: rgba(0, 0, 0, 0.5);
-    text-align: center; /* Aligns the headline and video to the middle*/
+    text-align: center;
+    /* Aligns the headline and video to the middle*/
 }
 
-#bernabeu > h2 {
-    background-color: rgba(0, 0, 0, 0.75); /* Added this style so the headline stands out more */
+#bernabeu>h2 {
+    background-color: rgba(0, 0, 0, 0.75);
+    /* Added this style so the headline stands out more */
 }
 
 #bern-vid {
     width: 90%;
-    height: 25%; /* Makes video size responsive but need to amend for tablets and bigger */
+    height: 25%;
+    /* Makes video size responsive but need to amend for tablets and bigger */
     padding-bottom: 1em;
 }
 
@@ -159,7 +172,7 @@ td, tr {
 }
 
 /* Squad Box Styles*/
-#squad-link{
+#squad-link {
     color: black;
     background-color: rgba(192, 192, 192, 0.75);
     text-align: center;
@@ -187,7 +200,37 @@ td, tr {
     padding: 5px;
     font-size: xx-large;
     min-width: 25%;
-    margin: 2px;
+    margin-bottom: 2px;
+}
+
+/* Styles for bottom section */
+#bottom h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#official-link {
+    text-align: center;
+    text-decoration: none;
+}
+
+.button3 {
+    background-color: slateblue;
+    border: 1px solid gold;
+    border-radius: 35%;
+    padding: 5px;
+    font-size: xx-large;
+    min-width: 25%;
+    margin-bottom: 2px;
+}
+
+.button4 {
+    background-color: orangered;
+    border: 1px solid slateblue;
+    border-radius: 45%;
+    padding: 5px;
+    font-size: x-large;
+    min-width: 35%;
+    margin-bottom: 2px;
 }
 
 /* Footer */
@@ -200,13 +243,15 @@ footer {
     background-color: black;
     min-height: 3em;
 }
+
 #social {
     text-align: center;
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    border-top: 1px solid slategray; /* Added little border on the top so footer stands out due to BG image's color */
+    border-top: 1px solid slategray;
+    /* Added little border on the top so footer stands out due to BG image's color */
 }
 
 /* Below styles added to i elements so they look better in the footer */
@@ -237,13 +282,14 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-right: 1rem;
     }
 }
 
 /* Media query for laptops (992px +) */
 @media screen and (min-width: 992px) {
+
     /* gives the elements an underlined when ohvered on */
     #menu a:hover {
         border-bottom: 1px solid slateblue;

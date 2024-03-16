@@ -113,6 +113,10 @@ div {
     min-height: 150px;
 }
 
+#top h2 {
+    text-decoration: underline;
+}
+
 /* Styles for the Trophy div */
 #trophies {
     background-color: rgba(255, 215, 0, 0.75);
@@ -124,6 +128,10 @@ div {
 #scorers {
     background-color: rgba(106, 90, 205, 0.75); /* Adds colour and transparency to this div */
     text-align: center; /* Makes the content in the scorers table align nicely */
+}
+
+td, tr {
+    border-bottom: blue solid 1px; /* Makes thetable look better by giving the rows a bottom border */
 }
 
 /* Styles for the Bernabeu renovations video div */

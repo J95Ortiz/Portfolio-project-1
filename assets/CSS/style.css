@@ -100,6 +100,11 @@ main {
     margin-top: 77px;
 }
 
+/* Style below added so that the div titles align in the center of their div*/
+h2 {
+    text-align: center; 
+}
+
 /* Styles for the divs in the main content */
 div {
     display: block;
@@ -108,8 +113,22 @@ div {
     min-height: 150px;
 }
 
+/* Styles for the Trophy div */
+#trophies {
+    background-color: rgba(255, 215, 0, 0.75);
+    color: #00caff;
+    text-align: center;
+}
+
+/* Styles for Scorers Table */
 #scorers {
-    background-color: rgba(106, 90, 205, 0.75) /* Adds colour and transparency to this div */
+    background-color: rgba(106, 90, 205, 0.75); /* Adds colour and transparency to this div */
+    text-align: center; /* Makes the content in the scorers table align nicely */
+}
+
+/* Styles for the Bernabeu renovations video div */
+#bernabeu {
+    background-color: rgba(192, 192, 192, 0.75);
 }
 
 #middle {

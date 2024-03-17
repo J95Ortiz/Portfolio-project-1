@@ -139,10 +139,14 @@ div {
     /* Makes the content in the scorers table align nicely */
 }
 
-td,
-tr {
+#gs-table {
+    font-size: 15px; /* Makes the header row font look better and not overflow */
+}
+
+td {
     border-bottom: blue solid 1px;
     /* Makes thetable look better by giving the rows a bottom border */
+    padding: 2px;
 }
 
 /* Styles for the Bernabeu renovations video div */

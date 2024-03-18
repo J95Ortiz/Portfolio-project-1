@@ -247,6 +247,23 @@ div {
     background-position: center;
 }
 
+/* Background colourws for form sections so they look more appealing to the user */
+#meet-greet {
+    background-color: rgba(192, 192, 192, 0.3);
+}
+
+#radio {
+    background-color: rgba(46, 204, 113, 0.1);
+}
+
+#dropdown {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#fieldset {
+    background-color: rgba(90, 34, 139, 0.25);
+}
+
 /* Footer */
 /* Styles added to ensure footer is fixed and sticks to the bottom of the page */
 footer {

@@ -237,7 +237,15 @@ div {
     margin-bottom: 2px;
 }
 
-/* Squad Page */
+/* SQUAD PAGE */
+
+/* FORM PAGE */
+#signup {
+    /* Adds and styles an image for the form's background */
+    background-image: url("../images/CELEB.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 /* Footer */
 /* Styles added to ensure footer is fixed and sticks to the bottom of the page */

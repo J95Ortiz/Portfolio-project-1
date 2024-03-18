@@ -56,6 +56,61 @@
                 <label for="email">Email Address:</label>
                 <input type="email" name="email" id="email" class="text-input" required>
                 <br>
+                <div id="radio">
+                    <h4>What position do they play in?</h4>
+                    <div>
+                        <label for="goalkeeper">Goalkeeper</label>
+                        <input type="radio" name="player_preference" id="goalkeeper" value="goalkeeper" required>
+                    </div>
+                    <div>
+                        <label for="defense">Defense</label>
+                        <input type="radio" name="player_preference" id="defense" value="defense" required>
+                    </div>
+                    <div>
+                        <label for="midfield">Midfield</label>
+                        <input type="radio" name="player_preference" id="midfield" value="midfield" required>
+                    </div>
+                    <div>
+                        <label for="attack">Attack</label>
+                        <input type="radio" name="player_preference" id="attack" value="attack" required>
+                    </div>
+                </div>
+                <div id="dropdown">
+                    <input list="player_list" id="players" name="players"  type="text" />
+                    <datalist id="player_list">
+                        <option value="Alaba"></option>
+                        <option value="Arda Guler"></option>
+                        <option value="Bellingham"></option>
+                        <option value="Brahim"></option>
+                        <option value="Camavinga"></option>
+                        <option value="Carvajal"></option>
+                        <option value="Ceballos"></option>
+                        <option value="Courtois"></option>
+                        <option value="Fran Garcia"></option>
+                        <option value="Joselu"></option>
+                        <option value="Kepa Arrizabalaga"></option>
+                        <option value="Toni Kroos"></option>
+                        <option value="Luka Modric"></option>
+                        <option value="Lucas Vazquez"></option>
+                        <option value="Lunin"></option>
+                        <option value="Mendy"></option>
+                        <option value="Militao"></option>
+                        <option value="Nacho"></option>
+                        <option value="Rodrigo"></option>
+                        <option value="Rudiger"></option>
+                        <option value="Tchouameni"></option>
+                        <option value="Valverde"></option>
+                        <option value="Vini Jr"></option>
+                        <option value="Other"></option>
+                    </datalist>
+                </div>
+                <div id="fieldset">
+                    <fieldset><legend>Comment</legend>
+                    <label for="comment">Tell us the reason why ytou chose this player and if there's anything you'd want to tell them?</label>
+                <br>
+            <textarea name="comment" id="comment" cols="50" rows="5"></textarea></fieldset>
+                </div>
+                <button type="submit" class="submit_button">Good Luck!</button>
             </form>
         </section>
     </main>

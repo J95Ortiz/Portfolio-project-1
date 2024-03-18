@@ -238,6 +238,9 @@ div {
 }
 
 /* SQUAD PAGE */
+#coach, #gk, #df, #mid, #att {
+    display: flex;
+}
 
 /* FORM PAGE */
 #signup {

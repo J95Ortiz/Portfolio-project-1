@@ -238,9 +238,7 @@ div {
 }
 
 /* SQUAD PAGE */
-#coach, #gk, #df, #mid, #att {
-    display: flex;
-}
+#squadlist
 
 /* FORM PAGE */
 #signup {

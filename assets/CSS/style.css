@@ -238,7 +238,29 @@ div {
 }
 
 /* SQUAD PAGE */
-#squadlist
+#squadlist {
+    display: block;
+    }
+
+#squadlist section {
+    margin: 1rem;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid gray;
+    overflow-x: auto;
+    text-align: center;
+    }
+
+/* Style below only applies to the roles in the squad section */
+.role {
+    text-align: start;
+    text-transform: uppercase;
+}
+
+div img {
+    max-height: 300px;
+    display: block;
+    }
 
 /* FORM PAGE */
 #signup {

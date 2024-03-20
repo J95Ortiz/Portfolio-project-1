@@ -127,12 +127,13 @@ div {
 
 #top h2 {
     text-decoration: underline;
+    margin-bottom: 5px;
 }
 
 /* Styles for the Trophy div */
 #trophies {
-    background-color: rgba(255, 215, 0, 0.75);
-    color: #00caff;
+    background-color: rgba(192, 192, 192, 0.5);
+    color: rgb(12, 32, 105);
     text-align: center;
     padding: 1rem;
 }
@@ -228,9 +229,8 @@ div {
 .button3 {
     background-color: slateblue;
     border: 1px solid gold;
-    border-radius: 35%;
     padding: 5px;
-    font-size: xx-large;
+    font-size: x-large;
     min-width: 25%;
     margin-bottom: 2px;
 }
@@ -278,19 +278,55 @@ div img {
     background-position: center;
 }
 
-/* Background colourws for form sections so they look more appealing to the user */
-#meet-greet {
-    background-color: rgba(192, 192, 192, 0.3);
+#signup form {
+    margin: 3%;  
 }
 
+/* Styles the form's header */
+#form-header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+label {
+    margin: 2px;
+    padding: 3px;
+}
+
+/* Background colours for form sections so they look more appealing to the user */
+#meet-greet {
+    background-color: rgba(192, 192, 192, 0.3);
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.text-input {
+    margin: 3px;
+}
+
+/* Background colours for form sections so they look more appealing to the user */
 #radio {
     background-color: rgba(46, 204, 113, 0.1);
 }
 
+/* Makes the position section in the form look better by centering it's contents */
+#radio h4, #radio div {
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+}
+
+.form-position {
+    margin-top: 5px;
+}
+
+/* Background colours for form sections so they look more appealing to the user */
 #dropdown {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Background colours for form sections so they look more appealing to the user */
 #fieldset {
     background-color: rgba(90, 34, 139, 0.25);
 }
@@ -375,6 +411,10 @@ footer {
         height: 256px;
         padding-bottom: 1em;
     }
+
+    /* FORM PAGE */
+    /* Centers content so it doesn't look so wide */
+
 }
 
 /* Media query for laptops (992px +) */

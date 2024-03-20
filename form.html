@@ -45,34 +45,36 @@
     <main>
         <!-- Form to meet a player -->
         <section id="signup">
+            <h3 id="form-header">Complete the form below for a chance to meet a player!</h3>
             <form action="https://formdump.codeinstitute.net" id="meet-greet" method="post">
-                <h3>Complete the form below for a chance to meet a player!</h3>
-                <label for="name">First Name:</label>
-                <input type="text" name="name" id="name" class="text-input" required>
-                <br>
-                <label for="surname">Last Name:</label>
-                <input type="text" name="surname" id="surname" class="text-input" required>
-                <br>
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" class="text-input" required>
-                <br>
+                <div id="details">
+                    <label for="name">First Name:</label>
+                    <input type="text" name="name" id="name" class="text-input" required>
+                    <br>
+                    <label for="surname">Last Name:</label>
+                    <input type="text" name="surname" id="surname" class="text-input" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="text-input" required>
+                    <br>
+                </div>
                 <div id="radio">
                     <h4>What position do they play in?</h4>
                     <div>
                         <label for="goalkeeper">Goalkeeper</label>
-                        <input type="radio" name="player_preference" id="goalkeeper" value="goalkeeper" required>
+                        <input type="radio" name="player_preference" class="form-position" id="goalkeeper" value="goalkeeper" required>
                     </div>
                     <div>
                         <label for="defense">Defense</label>
-                        <input type="radio" name="player_preference" id="defense" value="defense" required>
+                        <input type="radio" name="player_preference" id="defense" class="form-position" value="defense" required>
                     </div>
                     <div>
                         <label for="midfield">Midfield</label>
-                        <input type="radio" name="player_preference" id="midfield" value="midfield" required>
+                        <input type="radio" name="player_preference" id="midfield" class="form-position" value="midfield" required>
                     </div>
                     <div>
                         <label for="attack">Attack</label>
-                        <input type="radio" name="player_preference" id="attack" value="attack" required>
+                        <input type="radio" name="player_preference" id="attack" class="form-position" value="attack" required>
                     </div>
                 </div>
                 <div id="dropdown">

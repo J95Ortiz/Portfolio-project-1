@@ -129,7 +129,7 @@ div {
 
 #top h2 {
     text-decoration: underline;
-    margin-bottom: 5px;
+    margin-bottom: 0.25em;
 }
 
 /* Styles for the Trophy div */
@@ -147,7 +147,7 @@ div {
     /* Adds colour and transparency to this div */
     text-align: center;
     /* Makes the content in the scorers table align nicely */
-    padding: 2px;
+    padding: 0.25em;
     margin: 5px;
 }
 
@@ -179,7 +179,7 @@ div {
     width: 90%;
     height: 25%;
     /* Makes video size responsive but need to amend for tablets and bigger */
-    padding-bottom: 1em;
+    padding-bottom: 0.25em;
 }
 
 /* Styles for the middle section (links) */
@@ -230,12 +230,13 @@ div {
 /* Styles for bottom section */
 #bottom {
     display: block;
-}
+    }
 
 #official-link {
     text-align: center;
     text-decoration: none;
     margin: 5px;
+    padding: 0.5em;
     background-color: rgba(255, 215, 0, 0.75);
     color: #580099;
 }
@@ -291,6 +292,7 @@ div img {
     background-image: url("../images/CELEB.jpg");
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 #signup form {
@@ -302,6 +304,11 @@ div img {
     text-align: center;
     text-transform: uppercase;
     margin-top: 15px;
+    padding: 0.25em;
+}
+
+form>div {
+    border: 1px solid gold;
 }
 
 label {
@@ -313,11 +320,12 @@ label {
 #meet-greet {
     background-color: rgba(192, 192, 192, 0.3);
     padding: 3px;
-    margin-top: 5px;
-}
+    }
 
 .text-input {
-    margin: 3px;
+    margin: 0.25em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white
 }
 
 /* Background colours for form sections so they look more appealing to the user */
@@ -344,6 +352,11 @@ label {
 /* Background colours for form sections so they look more appealing to the user */
 #fieldset {
     background-color: rgba(90, 34, 139, 0.25);
+}
+
+#submit {
+    display: flex;
+    align-items: center;
 }
 
 /* Footer */

@@ -104,6 +104,7 @@ main {
     /* Real Madrid Logo set as background */
     background-size: 500px;
     margin-top: 4em;
+    background-color: rgb(29, 51, 97);
     /* Style below added to push footer to the bottom of the page */
     flex: 1 0 auto;
 
@@ -133,15 +134,16 @@ div {
 
 /* Styles for the Trophy div */
 #trophies {
-    background-color: rgba(192, 192, 192, 0.5);
-    color: navy;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgb(8, 8, 225);
     text-align: center;
     padding: 1rem;
 }
 
 /* Styles for Scorers Table */
 #scorers {
-    background-color: rgba(106, 90, 205, 0.75);
+    background-color: rgba(179, 167, 255, 0.86);
+    color: black;
     /* Adds colour and transparency to this div */
     text-align: center;
     /* Makes the content in the scorers table align nicely */
@@ -150,7 +152,8 @@ div {
 }
 
 #gs-table {
-    font-size: 15px; /* Makes the header row font look better and not overflow */
+    font-size: 13px; /* Makes the header row font look better and not overflow */
+    font-weight: bold;
 }
 
 #gs td {
@@ -159,16 +162,16 @@ div {
     padding: 2px;
 }
 
-/* Styles for the Bernabeu renovations video div */
-#bernabeu {
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    /* Aligns the headline and video to the middle*/
+.goal {
+    font-weight: bold;
 }
 
-#bernabeu>h2 {
+/* Styles for the Bernabeu renovations video div */
+#bernabeu {
     background-color: rgba(0, 0, 0, 0.75);
-    /* Added this style so the headline stands out more */
+    color: white;
+    text-align: center;
+    /* Aligns the headline and video to the middle*/
 }
 
 #bern-vid {
@@ -194,6 +197,7 @@ div {
 
 .button1 {
     background-color: black;
+    color: silver;
     border: 1px solid silver;
     border-radius: 25%;
     padding: 5px;
@@ -203,6 +207,7 @@ div {
 
 /* Form Box Styles*/
 #form-link {
+    color: white;
     background-color: rgba(0, 0, 100, 0.75);
     text-align: center;
 }
@@ -218,32 +223,36 @@ div {
 }
 
 /* Styles for bottom section */
-#bottom h2 {
-    background-color: rgba(0, 0, 0, 0.5);
+#bottom {
+    display: block;
 }
 
 #official-link {
     text-align: center;
     text-decoration: none;
+    margin: 5px;
+    background-color: rgba(255, 215, 0, 0.75);
+    color: #580099;
 }
 
 .button3 {
-    background-color: slateblue;
-    border: 1px solid gold;
-    padding: 5px;
-    font-size: x-large;
-    min-width: 25%;
-    margin-bottom: 2px;
-}
-
-.button4 {
-    background-color: orangered;
-    border: 1px solid slateblue;
-    border-radius: 45%;
+    background-color: rgb(29, 16, 116);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
     padding: 5px;
     font-size: x-large;
     min-width: 35%;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.button4 {
+    background-color: white;
+    border: 1px solid rgb(29, 16, 116);
+    color: gold;
+    padding: 5px;
+    font-size: x-large;
+    min-width: 35%;
+    margin-bottom: 5px;
 }
 
 /* SQUAD PAGE */

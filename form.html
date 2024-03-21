@@ -48,10 +48,10 @@
             <h3 id="form-header">Complete the form below for a chance to meet a player!</h3>
             <form action="https://formdump.codeinstitute.net" id="meet-greet" method="post">
                 <div id="details">
-                    <label for="name">First Name:</label>
+                    <label for="name">Name:</label>
                     <input type="text" name="name" id="name" class="text-input" required>
                     <br>
-                    <label for="surname">Last Name:</label>
+                    <label for="surname">Surname:</label>
                     <input type="text" name="surname" id="surname" class="text-input" required>
                     <br>
                     <label for="email">Email:</label>
@@ -59,7 +59,7 @@
                     <br>
                 </div>
                 <div id="radio">
-                    <h4>What position do they play in?</h4>
+                    <h4 id="position">What position do they play in?</h4>
                     <div>
                         <label for="goalkeeper">Goalkeeper</label>
                         <input type="radio" name="player_preference" class="form-position" id="goalkeeper" value="goalkeeper" required>
@@ -78,46 +78,45 @@
                     </div>
                 </div>
                 <div id="dropdown">
-                    <label for="players">Choose a player from the dropdown</label>
-                    <input list="player_list" id="players" name="players" type="text" />
-                    <datalist id="player_list">
-                        <option value="Alaba"></option>
-                        <option value="Arda Guler"></option>
-                        <option value="Bellingham"></option>
-                        <option value="Brahim"></option>
-                        <option value="Camavinga"></option>
-                        <option value="Carvajal"></option>
-                        <option value="Ceballos"></option>
-                        <option value="Courtois"></option>
-                        <option value="Fran Garcia"></option>
-                        <option value="Joselu"></option>
-                        <option value="Kepa Arrizabalaga"></option>
-                        <option value="Toni Kroos"></option>
-                        <option value="Luka Modric"></option>
-                        <option value="Lucas Vazquez"></option>
-                        <option value="Lunin"></option>
-                        <option value="Mendy"></option>
-                        <option value="Militao"></option>
-                        <option value="Nacho"></option>
-                        <option value="Rodrigo"></option>
-                        <option value="Rudiger"></option>
-                        <option value="Tchouameni"></option>
-                        <option value="Valverde"></option>
-                        <option value="Vini Jr"></option>
-                        <option value="Other"></option>
-                    </datalist>
+                    <label for="player_list">Choose a player from the dropdown</label>
+                    <select id="player_list" name="player_list">
+                        <option>Current Squad Players...</option>
+                        <option value="Alaba">Alaba</option>
+                        <option value="Arda Guler">Arda Guler</option>
+                        <option value="Bellingham">Bellingham</option>
+                        <option value="Brahim">Brahim</option>
+                        <option value="Camavinga">Camavinga</option>
+                        <option value="Carvajal">Carvajal</option>
+                        <option value="Ceballos">Ceballos</option>
+                        <option value="Courtois">Courtois</option>
+                        <option value="Fran Garcia">Fran Garcia</option>
+                        <option value="Joselu">Joselu</option>
+                        <option value="Kepa Arrizabalaga">Kepa</option>
+                        <option value="Toni Kroos">Toni Kroos</option>
+                        <option value="Luka Modric">Luka Modric</option>
+                        <option value="Lucas Vazquez">Lucas Vazquez</option>
+                        <option value="Lunin">Andriy Lunin</option>
+                        <option value="Mendy">Mendy</option>
+                        <option value="Militao">Militao</option>
+                        <option value="Nacho">Nacho</option>
+                        <option value="Rodrygo">Rodrygo</option>
+                        <option value="Rudiger">Antonio Rudiger</option>
+                        <option value="Tchouameni">Tchouameni</option>
+                        <option value="Valverde">Fede Valverde</option>
+                        <option value="Vini Jr">Vini Jr</option>
+                        <option value="Other">Other, add details below</option>
+                    </select>
                 </div>
                 <div id="fieldset">
                     <fieldset>
                         <legend>Comment</legend>
-                        <br>
-                        <label for="comment">Tell us the reason why you chose this player and if there's anything you'd
+                       <label for="comment">Tell us the reason why you chose this player and if there's anything you'd
                             want to tell them?</label>
                         <br>
-                        <textarea name="comment" id="comment" cols="35" rows="5"></textarea>
+                        <textarea name="comment" id="comment" cols="30" rows="7"></textarea>
                     </fieldset>
                 </div>
-                <button type="submit" class="submit_button">Good Luck!</button>
+                <button type="submit" id="submit">Good Luck!</button>
             </form>
         </section>
     </main>

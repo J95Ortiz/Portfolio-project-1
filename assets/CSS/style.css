@@ -293,6 +293,7 @@ div img {
     background-size: cover;
     background-position: center;
     color: white;
+    margin: 0.5em;
 }
 
 #signup form {
@@ -322,6 +323,10 @@ label {
     padding: 3px;
     }
 
+#details {
+    padding: 0.25em;
+}
+
 .text-input {
     margin: 0.25em;
     background-color: rgba(0, 0, 0, 0.5);
@@ -336,7 +341,7 @@ label {
 /* Makes the position section in the form look better by centering it's contents */
 #radio h4, #radio div {
     text-align: center;
-    padding: 3px;
+    padding: 0.25em;
     margin: 3px;
 }
 
@@ -347,16 +352,48 @@ label {
 /* Background colours for form sections so they look more appealing to the user */
 #dropdown {
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.25em;
+    align-items: center;
+}
+
+#player_list {
+    border: 1px solid gold;
+    background-color: rgba(192, 192, 192, 0.5);
+    color: white;
+    display: block;
+    margin: 0.25em auto;
+    padding: 0.25em;
+}
+
+option {
+    background-color: black;
 }
 
 /* Background colours for form sections so they look more appealing to the user */
 #fieldset {
     background-color: rgba(90, 34, 139, 0.25);
+    padding: 0.25em;
+}
+
+/* Styles for the Comment Section */
+fieldset {
+    padding: 0.25em;
+}
+
+#comment {
+    display: block;
+    margin: 0.25em auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white
 }
 
 #submit {
-    display: flex;
-    align-items: center;
+    display: block;
+    margin: 0.25em auto;
+    padding: 5px;
+    min-width: 35%;
+    background-color: white;
+    color: #580099;
 }
 
 /* Footer */

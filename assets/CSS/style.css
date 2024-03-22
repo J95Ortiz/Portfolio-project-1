@@ -263,8 +263,13 @@ div {
 
 /* SQUAD PAGE */
 #squadlist {
+    color: white;
+    vertical-align: top;
+     }
+
+.table, tr, td {
     display: block;
-    }
+}
 
 #squadlist section {
     margin: 1rem;
@@ -273,6 +278,9 @@ div {
     border: 1px solid gray;
     overflow-x: auto;
     text-align: center;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; 
     }
 
 /* Style below only applies to the roles in the squad section */
@@ -384,7 +392,8 @@ fieldset {
     display: block;
     margin: 0.25em auto;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid white
+    border: 1px solid white;
+    color: white;
 }
 
 #submit {

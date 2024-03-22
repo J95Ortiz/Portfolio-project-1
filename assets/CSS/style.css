@@ -305,7 +305,7 @@ div>img {
 #signup {
     /* Adds and styles an image for the form's background */
     background-image: url("../images/CELEB.jpg");
-    opacity: 0.85;
+    /*opacity: 0.85; Commented out as would like to add but causes issues with the dropdown */
     background-size: cover;
     background-position: center;
     color: white;

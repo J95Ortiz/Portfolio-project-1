@@ -283,7 +283,6 @@ div {
 tr,
 td {
     display: block;
-    vertical-align: middle;
     table-layout: auto;
     justify-content: center;
 }
@@ -345,7 +344,7 @@ form>div {
     border: 1px solid gold;
 }
 
-label {
+.form_label {
     margin: 2px;
     padding: 3px;
 }
@@ -360,23 +359,40 @@ label {
     padding: 0.25em;
 }
 
+#details>label {
+    text-decoration: 1px solid white;
+}
+
 .text-input {
     margin: 0.25em;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid white
+    border: 1px solid white;
 }
 
 /* Background colours for form sections so they look more appealing to the user */
 #radio {
     background-color: rgba(46, 204, 113, 0.1);
-}
+    }
 
-/* Makes the position section in the form look better by centering it's contents */
+/* Makes the position section in the form look better by centering its contents */
 #radio h4,
 #radio div {
     text-align: center;
     padding: 0.25em;
     margin: 3px;
+    }
+
+    #radio div {
+        display: inline-block;
+               align-content: space-around;
+        
+   
+    }
+
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .form-position {
@@ -405,7 +421,7 @@ option {
 
 /* Background colours for form sections so they look more appealing to the user */
 #fieldset {
-    background-color: rgba(90, 34, 139, 0.25);
+    background-color: rgba(90, 34, 139, 0.5);
     padding: 0.25em;
 }
 
@@ -417,7 +433,7 @@ fieldset {
 #comment {
     display: block;
     margin: 0.25em auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.65);
     border: 1px solid white;
     color: white;
 }

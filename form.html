@@ -48,37 +48,37 @@
             <h3 id="form-header">Complete the form below for a chance to meet a player!</h3>
             <form action="https://formdump.codeinstitute.net" id="meet-greet" method="post">
                 <div id="details">
-                    <label for="name">Name:</label>
+                    <label for="name" class="form_label">Name:</label>
                     <input type="text" name="name" id="name" class="text-input" required>
                     <br>
-                    <label for="surname">Surname:</label>
+                    <label for="surname" class="form_label">Surname:</label>
                     <input type="text" name="surname" id="surname" class="text-input" required>
                     <br>
-                    <label for="email">Email:</label>
+                    <label for="email" class="form_label">Email:</label>
                     <input type="email" name="email" id="email" class="text-input" required>
                     <br>
                 </div>
                 <div id="radio">
                     <h4 id="position">What position do they play in?</h4>
-                    <div>
-                        <label for="goalkeeper">Goalkeeper</label>
+                    <div class="option">
+                        <label for="goalkeeper" class="form_label">Goalkeeper</label>
                         <input type="radio" name="player_preference" class="form-position" id="goalkeeper" value="goalkeeper" required>
                     </div>
-                    <div>
-                        <label for="defense">Defense</label>
+                    <div class="option">
+                        <label for="defense" class="form_label">Defense</label>
                         <input type="radio" name="player_preference" id="defense" class="form-position" value="defense" required>
                     </div>
-                    <div>
-                        <label for="midfield">Midfield</label>
+                    <div class="option">
+                        <label for="midfield" class="form_label">Midfield</label>
                         <input type="radio" name="player_preference" id="midfield" class="form-position" value="midfield" required>
                     </div>
-                    <div>
-                        <label for="attack">Attack</label>
+                    <div class="option">
+                        <label for="attack" class="form_label">Attack</label>
                         <input type="radio" name="player_preference" id="attack" class="form-position" value="attack" required>
                     </div>
                 </div>
                 <div id="dropdown">
-                    <label for="player_list">Choose a player from the dropdown</label>
+                    <label for="player_list" class="form_label">Choose a player from the dropdown</label>
                     <select id="player_list" name="player_list">
                         <option>Current Squad Players...</option>
                         <option value="Alaba">Alaba</option>
@@ -110,8 +110,7 @@
                 <div id="fieldset">
                     <fieldset>
                         <legend>Comment</legend>
-                       <label for="comment">Tell us the reason why you chose this player and if there's anything you'd
-                            want to tell them?</label>
+                       <label for="comment" id="comment_title">Why did you chose this player?</label>
                         <br>
                         <textarea name="comment" id="comment" cols="30" rows="7"></textarea>
                     </fieldset>

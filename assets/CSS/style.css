@@ -66,6 +66,7 @@ header a {
 
 #menu>li {
     padding: 5px;
+    position: relative;
 }
 
 .active {
@@ -134,8 +135,8 @@ div {
 
 /* Styles for the Trophy div */
 #trophies {
-    background-color: rgba(255, 255, 255, 0.75);
-    color: rgb(8, 8, 225);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgb(243, 170, 31);
     text-align: center;
     padding: 1rem;
 }
@@ -272,19 +273,16 @@ div {
 /* SQUAD PAGE */
 #squadlist {
     color: white;
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
     text-align: center;
 }
 
-#squadlist div {
+#squadlist>div {
     margin: 1em;
     padding: 2px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid gray;
     overflow-x: auto;
-    }
+}
 
 /* Style below only applies to the roles in the squad section */
 .role {
@@ -292,19 +290,27 @@ div {
     text-transform: uppercase;
 }
 
-div img {
-    max-height: 300px;
-    display: block;
-    }
+.ind_role {
+    background-color: rgba(192, 192, 192, 0.5);
+    color: white;
+    font-size: 125%;
+}
+
+div>img {
+    height: 350px;
+    padding-top: 9px;
+}
 
 /* FORM PAGE */
 #signup {
     /* Adds and styles an image for the form's background */
     background-image: url("../images/CELEB.jpg");
+    opacity: 0.85;
     background-size: cover;
     background-position: center;
     color: white;
     margin: 0.5em;
+    height: 82vh;
 }
 
 #signup form {
@@ -321,6 +327,7 @@ div img {
 
 form>div {
     border: 1px solid gold;
+    margin: 0.75em 0 0.75em 0;
 }
 
 .form_label {
@@ -332,6 +339,10 @@ form>div {
 #meet-greet {
     background-color: rgba(192, 192, 192, 0.3);
     padding: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+
 }
 
 #details {
@@ -351,7 +362,7 @@ form>div {
 /* Background colours for form sections so they look more appealing to the user */
 #radio {
     background-color: rgba(46, 204, 113, 0.1);
-    }
+}
 
 /* Makes the position section in the form look better by centering its contents */
 #radio h4,
@@ -359,14 +370,14 @@ form>div {
     text-align: center;
     padding: 0.25em;
     margin: 3px;
-    }
+}
 
-    #radio div {
-        display: inline-block;
-               align-content: space-around;
-        
-   
-    }
+#radio div {
+    display: inline-block;
+    align-content: space-around;
+
+
+}
 
 .option {
     display: flex;

@@ -151,15 +151,23 @@ div {
     margin: 5px;
 }
 
+/* Styles applied below to override style4s below applied to squad screen */
 #gs-table {
-    font-size: 13px; /* Makes the header row font look better and not overflow */
+    font-size: 13px;
+    /* Makes the header row font look better and not overflow */
     font-weight: bold;
+    display: table;
+}
+
+#gs tr {
+    display: table-row;
 }
 
 #gs td {
     border-bottom: blue solid 1px;
     /* Makes thetable look better by giving the rows a bottom border */
     padding: 2px;
+    display: table-cell;
 }
 
 .goal {
@@ -230,7 +238,7 @@ div {
 /* Styles for bottom section */
 #bottom {
     display: block;
-    }
+}
 
 #official-link {
     text-align: center;
@@ -264,11 +272,25 @@ div {
 /* SQUAD PAGE */
 #squadlist {
     color: white;
-    vertical-align: top;
-     }
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+}
 
-.table, tr, td {
+/* Styles below stop table elements behaving like a table on phone screens */
+.table,
+tr,
+td {
     display: block;
+    vertical-align: middle;
+    table-layout: auto;
+    justify-content: center;
+}
+
+tr {
+    text-align: center;
+    border: 0px;
 }
 
 #squadlist section {
@@ -277,22 +299,25 @@ div {
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid gray;
     overflow-x: auto;
-    text-align: center;
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%; 
-    }
+    
+}
 
 /* Style below only applies to the roles in the squad section */
 .role {
-    text-align: start;
+    text-align: center;
     text-transform: uppercase;
+}
+
+td>div {
+    border: 0;
 }
 
 div img {
     max-height: 300px;
     display: block;
-    }
+    margin-left: 1em;
+    
+}
 
 /* FORM PAGE */
 #signup {
@@ -305,7 +330,7 @@ div img {
 }
 
 #signup form {
-    margin: 3%;  
+    margin: 3%;
 }
 
 /* Styles the form's header */
@@ -329,7 +354,7 @@ label {
 #meet-greet {
     background-color: rgba(192, 192, 192, 0.3);
     padding: 3px;
-    }
+}
 
 #details {
     padding: 0.25em;
@@ -347,7 +372,8 @@ label {
 }
 
 /* Makes the position section in the form look better by centering it's contents */
-#radio h4, #radio div {
+#radio h4,
+#radio div {
     text-align: center;
     padding: 0.25em;
     margin: 3px;
@@ -437,7 +463,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
-   /* Styling Nav elements so it appears inside the header */
+    /* Styling Nav elements so it appears inside the header */
     nav {
         display: block;
         position: relative;
@@ -465,10 +491,11 @@ footer {
 
     /* Resizing the socrers table */
     #scorers {
-                margin-right: 5px;
-            }
+        margin-right: 5px;
+    }
 
-    #trophies, #scorers {
+    #trophies,
+    #scorers {
         width: 50%;
     }
 

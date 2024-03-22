@@ -278,28 +278,13 @@ div {
     text-align: center;
 }
 
-/* Styles below stop table elements behaving like a table on phone screens */
-.table,
-tr,
-td {
-    display: block;
-    table-layout: auto;
-    justify-content: center;
-}
-
-tr {
-    text-align: center;
-    border: 0px;
-}
-
-#squadlist section {
-    margin: 1rem;
+#squadlist div {
+    margin: 1em;
     padding: 2px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid gray;
     overflow-x: auto;
-    
-}
+    }
 
 /* Style below only applies to the roles in the squad section */
 .role {
@@ -307,16 +292,10 @@ tr {
     text-transform: uppercase;
 }
 
-td>div {
-    border: 0;
-}
-
 div img {
     max-height: 300px;
     display: block;
-    margin-left: 1em;
-    
-}
+    }
 
 /* FORM PAGE */
 #signup {

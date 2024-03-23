@@ -447,6 +447,29 @@ fieldset {
     color: #580099;
 }
 
+/* SUBMISSION PAGE */
+#submission {
+    background: url(../images/Thumbs_up.webp) fixed center no-repeat;
+    border-radius: 10%;
+    position: relative;
+    color: white;
+    margin: 0.5em;
+    height: 70vh;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#submission h2 {
+    position: fixed;
+    margin-top: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    width: 90%;
+        background-color: rgba(0, 0, 0, 0.75);
+        border-radius: 5%;
+}
+
 /* Footer */
 /* Styles added to ensure footer is fixed and sticks to the bottom of the page */
 footer {
@@ -568,6 +591,18 @@ footer {
         width: 75%;
         margin: auto;
             }
+
+    /* SUBMISSION PAGE */
+    #submission {
+        margin-top: 1rem;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #submission h2 {
+        max-width: 55%;
+        margin: 400px auto auto 50px;
+    }
 }
 
 /* Media query for laptops (992px +) */

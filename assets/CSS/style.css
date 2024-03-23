@@ -152,6 +152,10 @@ div {
     margin: 5px;
 }
 
+#gs {
+    margin: auto;
+}
+
 /* Styles applied below to override style4s below applied to squad screen */
 #gs-table {
     font-size: 13px;
@@ -194,8 +198,6 @@ div {
 /* Styles for the middle section (links) */
 #middle {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 /* Squad Box Styles*/
@@ -533,13 +535,32 @@ footer {
         border-bottom: 1px solid slateblue;
     }
 
+    /* Styles below applied to goalscorers table to center it in its box and text bigger */
     #scorers {
-        padding: 3rem;
+        padding: 0.25em;
         flex-grow: 1;
+        font-size: large;
             }
+
+    #gs-table {
+        font-size: large;
+    }
 
     #gs {
         margin: auto;
         padding-top: 1em;
     }
+
+    /* Styles below to make iframes look more proportional*/
+#bernabeu>iframe {
+    height: 450px;
+
+}
+
+/* Styles for link buttons */
+#middle div {
+    width: 45%;
+    margin: auto;
+}
+
 }

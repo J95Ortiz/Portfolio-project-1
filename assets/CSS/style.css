@@ -523,8 +523,22 @@ footer {
     }
 
     /* FORM PAGE */
-    /* Centers content so it doesn't look so wide */
+    #signup {
+        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
+        opacity: 0.9;
+        width: 85%;
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        margin-left: auto;
+        margin-right:auto;
+        padding-top: 1rem;
+    }
 
+    /* Centers content so it doesn't look so wide */
+    #signup form {
+        width: 75%;
+        margin: auto;
+            }
 }
 
 /* Media query for laptops (992px +) */
@@ -561,6 +575,27 @@ footer {
 #middle div {
     width: 45%;
     margin: auto;
+}
+
+/* FORM PAGE */
+#signup {
+    /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
+    opacity: 0.9;
+    width: 75%;
+    margin-top: 0.65em;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 1rem;
+}
+
+/* Centers content so it doesn't look so wide */
+#signup form {
+    width: 65%;
+    margin: auto;
+        }
+
+#meet-greet {
+    margin-top: 0.25rem;
 }
 
 }

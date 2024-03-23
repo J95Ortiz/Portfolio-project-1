@@ -122,7 +122,6 @@ h2 {
 /* Styles for the divs in the main content */
 div {
     display: block;
-    border: 1px solid gray;
     margin: 5px;
     /* Applied some margins so the background image is more noticeable */
     min-height: 50px;
@@ -274,11 +273,11 @@ div {
 
 /* SQUAD PAGE */
 #squadlist {
-    color: white;
     text-align: center;
 }
 
-#squadlist>div {
+.boxes {
+    margin: auto;
     margin: 1em;
     padding: 2px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -286,16 +285,25 @@ div {
     overflow-x: auto;
 }
 
+.cards {
+    border: none;
+    }
+
 /* Style below only applies to the roles in the squad section */
 .role {
     text-align: center;
     text-transform: uppercase;
+    
+    color: gold;
+    border-bottom: 2px solid gold;
 }
 
-.ind_role {
-    background-color: rgba(192, 192, 192, 0.5);
-    color: white;
+.ind_role h4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: gold;
     font-size: 125%;
+    border-bottom: 1px solid gold;
+    text-decoration: overline 1px solid gold;
 }
 
 div>img {
@@ -490,7 +498,7 @@ footer {
         padding-right: 1rem;
     }
 
-    /* MAIN */
+    /* INDEX PAGE */
     /* Making the top section responsive */
     #top {
         display: flex;
@@ -520,6 +528,27 @@ footer {
     #bern-vid {
         height: 256px;
         padding-bottom: 1em;
+    }
+
+    /* SQUAD PAGE */
+.role {
+    width: 100%;
+}
+
+    .ind_role {
+        width: 45%;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div>img {
+        height: 400px;
+        padding-top: 9px;
     }
 
     /* FORM PAGE */
@@ -577,6 +606,27 @@ footer {
     margin: auto;
 }
 
+/* SQUAD PAGE */
+    .role {
+        width: 100%;
+    }
+    
+        .ind_role {
+            width: 31%;
+        }
+
+        div>img {
+            height: 400px;
+            padding-top: 9px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            border: none;
+        }
+  
 /* FORM PAGE */
 #signup {
     /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */

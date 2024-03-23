@@ -497,7 +497,7 @@ footer {
 
     /* Resizing the socrers table */
     #scorers {
-        margin-right: 5px;
+        padding-right: 5px;
     }
 
     #trophies,
@@ -512,6 +512,7 @@ footer {
 
     #gs {
         margin-top: 3rem;
+        padding: auto;
     }
 
     #bern-vid {
@@ -530,5 +531,15 @@ footer {
     /* gives the elements an underlined when ohvered on */
     #menu a:hover {
         border-bottom: 1px solid slateblue;
+    }
+
+    #scorers {
+        padding: 3rem;
+        flex-grow: 1;
+            }
+
+    #gs {
+        margin: auto;
+        padding-top: 1em;
     }
 }

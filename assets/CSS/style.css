@@ -684,3 +684,13 @@ footer {
 }
 
 }
+
+/* Media query for laptops (1024 +) */
+@media screen and (min-width: 1440px) {
+
+   /* SQUAD PAGE */
+    /* Makes the squad role sections look better by grouping 4 images per row */
+        .ind_role {
+            width: 22%;
+        }
+    }

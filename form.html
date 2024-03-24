@@ -47,7 +47,8 @@
         <section id="signup">
             <h3 id="form-header">Complete the form below for a chance to meet a player!</h3>
             <form action="submitted_form.html" id="meet-greet" method="get">
-                <div id="details">
+                <div id="combined">
+                    <div id="details">
                     <label for="name" class="form_label">Name:</label>
                     <input type="text" name="name" id="name" class="text-input" required>
                     <br>
@@ -58,59 +59,65 @@
                     <input type="email" name="email" id="email" class="text-input" required>
                     <br>
                 </div>
-                <div id="radio">
-                    <h4 id="position">What position do they play in?</h4>
-                    <div class="option">
-                        <label for="goalkeeper" class="form_label">Goalkeeper</label>
-                        <input type="radio" name="player_preference" class="form-position" id="goalkeeper" value="goalkeeper" required>
+                
+                    <div id="radio">
+                        <h4 id="position">What position do they play in?</h4>
+                        <div class="option">
+                            <label for="goalkeeper" class="form_label">Goalkeeper</label>
+                            <input type="radio" name="player_preference" class="form-position" id="goalkeeper"
+                                value="goalkeeper" required>
+                        </div>
+                        <div class="option">
+                            <label for="defense" class="form_label">Defense</label>
+                            <input type="radio" name="player_preference" id="defense" class="form-position"
+                                value="defense" required>
+                        </div>
+                        <div class="option">
+                            <label for="midfield" class="form_label">Midfield</label>
+                            <input type="radio" name="player_preference" id="midfield" class="form-position"
+                                value="midfield" required>
+                        </div>
+                        <div class="option">
+                            <label for="attack" class="form_label">Attack</label>
+                            <input type="radio" name="player_preference" id="attack" class="form-position"
+                                value="attack" required>
+                        </div>
                     </div>
-                    <div class="option">
-                        <label for="defense" class="form_label">Defense</label>
-                        <input type="radio" name="player_preference" id="defense" class="form-position" value="defense" required>
+                    <div id="dropdown" class="combined">
+                        <label for="player_list" class="form_label">Choose a player from the dropdown</label>
+                        <select id="player_list" name="player_list">
+                            <option>Current Squad Players...</option>
+                            <option value="Alaba">Alaba</option>
+                            <option value="Arda Guler">Arda Guler</option>
+                            <option value="Bellingham">Bellingham</option>
+                            <option value="Brahim">Brahim</option>
+                            <option value="Camavinga">Camavinga</option>
+                            <option value="Carvajal">Carvajal</option>
+                            <option value="Ceballos">Ceballos</option>
+                            <option value="Courtois">Courtois</option>
+                            <option value="Fran Garcia">Fran Garcia</option>
+                            <option value="Joselu">Joselu</option>
+                            <option value="Kepa Arrizabalaga">Kepa</option>
+                            <option value="Toni Kroos">Toni Kroos</option>
+                            <option value="Luka Modric">Luka Modric</option>
+                            <option value="Lucas Vazquez">Lucas Vazquez</option>
+                            <option value="Lunin">Andriy Lunin</option>
+                            <option value="Mendy">Mendy</option>
+                            <option value="Militao">Militao</option>
+                            <option value="Nacho">Nacho</option>
+                            <option value="Rodrygo">Rodrygo</option>
+                            <option value="Rudiger">Antonio Rudiger</option>
+                            <option value="Tchouameni">Tchouameni</option>
+                            <option value="Valverde">Fede Valverde</option>
+                            <option value="Vini Jr">Vini Jr</option>
+                            <option value="Other">Other, add details below</option>
+                        </select>
                     </div>
-                    <div class="option">
-                        <label for="midfield" class="form_label">Midfield</label>
-                        <input type="radio" name="player_preference" id="midfield" class="form-position" value="midfield" required>
-                    </div>
-                    <div class="option">
-                        <label for="attack" class="form_label">Attack</label>
-                        <input type="radio" name="player_preference" id="attack" class="form-position" value="attack" required>
-                    </div>
-                </div>
-                <div id="dropdown">
-                    <label for="player_list" class="form_label">Choose a player from the dropdown</label>
-                    <select id="player_list" name="player_list">
-                        <option>Current Squad Players...</option>
-                        <option value="Alaba">Alaba</option>
-                        <option value="Arda Guler">Arda Guler</option>
-                        <option value="Bellingham">Bellingham</option>
-                        <option value="Brahim">Brahim</option>
-                        <option value="Camavinga">Camavinga</option>
-                        <option value="Carvajal">Carvajal</option>
-                        <option value="Ceballos">Ceballos</option>
-                        <option value="Courtois">Courtois</option>
-                        <option value="Fran Garcia">Fran Garcia</option>
-                        <option value="Joselu">Joselu</option>
-                        <option value="Kepa Arrizabalaga">Kepa</option>
-                        <option value="Toni Kroos">Toni Kroos</option>
-                        <option value="Luka Modric">Luka Modric</option>
-                        <option value="Lucas Vazquez">Lucas Vazquez</option>
-                        <option value="Lunin">Andriy Lunin</option>
-                        <option value="Mendy">Mendy</option>
-                        <option value="Militao">Militao</option>
-                        <option value="Nacho">Nacho</option>
-                        <option value="Rodrygo">Rodrygo</option>
-                        <option value="Rudiger">Antonio Rudiger</option>
-                        <option value="Tchouameni">Tchouameni</option>
-                        <option value="Valverde">Fede Valverde</option>
-                        <option value="Vini Jr">Vini Jr</option>
-                        <option value="Other">Other, add details below</option>
-                    </select>
                 </div>
                 <div id="fieldset">
                     <fieldset>
                         <legend>Comment</legend>
-                       <label for="comment" id="comment_title">Why did you chose this player?</label>
+                        <label for="comment" id="comment_title">Why did you chose this player?</label>
                         <br>
                         <textarea name="comment" id="comment" class="text-input" cols="30" rows="7"></textarea>
                     </fieldset>

@@ -288,13 +288,13 @@ div {
 
 .cards {
     border: none;
-    }
+}
 
 /* Style below only applies to the roles in the squad section */
 .role {
     text-align: center;
     text-transform: uppercase;
-    
+
     color: gold;
     border-bottom: 2px solid gold;
 }
@@ -321,12 +321,13 @@ div>img {
     background-position: center;
     color: white;
     margin: 0.5em;
-    height: 82vh;
+    height: 81vh;
 }
 
 #signup form {
     margin: 1%;
     display: block;
+    padding: 5px;
 
 }
 
@@ -350,6 +351,7 @@ form>div {
 .form_label {
     margin: 2px;
     padding: 3px;
+    opacity: 0.9;
 }
 
 /* Background colours for form sections so they look more appealing to the user */
@@ -377,9 +379,18 @@ form>div {
     color: white;
 }
 
+#combined {
+    border: none;
+}
+
+#combined div {
+    border: 1px solid gold;
+}
+
 /* Background colours for form sections so they look more appealing to the user */
 #radio {
     background-color: rgba(46, 204, 113, 0.1);
+    justify-content: center;
 }
 
 /* Makes the position section in the form look better by centering its contents */
@@ -391,17 +402,18 @@ form>div {
 }
 
 #radio div {
-    display: inline-block;
+    display: inline-flex;
     align-content: space-around;
-
-
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
 }
 
 .option {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+   }
 
 .form-position {
     margin-top: 5px;
@@ -471,14 +483,14 @@ fieldset {
 
 #submission_message {
     position: absolute;
-   bottom: 10%;
-   left: 2.5%;
+    bottom: 10%;
+    left: 2.5%;
     padding: 0.5rem;
     width: 90%;
-        background-color: rgba(0, 0, 0, 0.75);
-        border-radius: 5%;
-        text-align: center;
-        font-size: large;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5%;
+    text-align: center;
+    font-size: large;
 }
 
 /* Footer */
@@ -565,9 +577,9 @@ footer {
     }
 
     /* SQUAD PAGE */
-.role {
-    width: 100%;
-}
+    .role {
+        width: 100%;
+    }
 
     .ind_role {
         width: 45%;
@@ -589,7 +601,7 @@ footer {
     #form-header {
         margin: 10px;
     }
-    
+
     #signup {
         /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
         opacity: 0.9;
@@ -597,27 +609,61 @@ footer {
         margin-top: 0.25em;
         margin-bottom: 0.25em;
         margin-left: auto;
-        margin-right:auto;
+        margin-right: auto;
         padding-top: 1rem;
     }
 
     /* Centers content so it doesn't look so wide */
     #signup form {
-        width: 75%;
+        width: 90%;
         margin: auto;
-            }
+        height: auto;
+    }
+
+    #details {
+        display: flex;
+        max-width: 45%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .option {
+        border: none;
+    }
+
+#radio {
+    max-width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#dropdown {
+    width: 90%;
+    margin: auto;
+}
+
+#combined {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
     /* SUBMISSION PAGE */
     #submission {
         margin-top: 1rem;
         margin-left: 15%;
         margin-right: 15%;
-         }
+    }
 
     #submission_message {
         max-width: 55%;
         margin: 400px auto auto 50px;
-        }
+    }
 }
 
 /* Media query for laptops (992px +) */
@@ -633,7 +679,7 @@ footer {
         padding: 0.25em;
         flex-grow: 1;
         font-size: large;
-            }
+    }
 
     #gs-table {
         font-size: large;
@@ -645,74 +691,123 @@ footer {
     }
 
     /* Styles below to make iframes look more proportional*/
-#bernabeu>iframe {
-    height: 450px;
+    #bernabeu>iframe {
+        height: 450px;
 
-}
+    }
 
-/* Styles for link buttons */
-#middle div {
-    width: 45%;
-    margin: auto;
-}
+    /* Styles for link buttons */
+    #middle div {
+        width: 45%;
+        margin: auto;
+    }
 
-/* SQUAD PAGE */
+    /* SQUAD PAGE */
     .role {
         width: 100%;
     }
+
+    .ind_role {
+        width: 31%;
+    }
+
+    div>img {
+        height: 400px;
+        padding-top: 9px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        border: none;
+    }
+
+    /* FORM PAGE */
+    #signup {
+        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
+        opacity: 0.9;
+        width: 90%;
+        margin-top: 0.65em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+    }
+
+    /* Centers content so it doesn't look so wide */
+    #signup form {
+        width: 95%;
+        margin-top: 2rem;
+        margin: auto;
+    }
+
+        #combined {
+        display: inline-flex;
+    }
+
+    #details {
+        max-width: 30%;
+    }
+
+    #position {
+        width: 100%;
+    }
     
-        .ind_role {
-            width: 31%;
-        }
+    #radio .option {
+        display: inline-flex;
 
-        div>img {
-            height: 400px;
-            padding-top: 9px;
-        }
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-evenly;
-            border: none;
-        }
-  
-/* FORM PAGE */
-#signup {
-    /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
-    opacity: 0.9;
-    width: 75%;
-    margin-top: 0.65em;
-    margin-left: auto;
-    margin-right:auto;
-    padding-top: 1rem;
-}
+    }
 
-/* Centers content so it doesn't look so wide */
-#signup form {
-    width: 65%;
-    margin: auto;
-        }
-
-#meet-greet {
-    margin-top: 0.25rem;
-}
+    #dropdown {
+          width: 23%;
+          flex-shrink: 1;
+    }
 
 }
 
 /* Media query for laptops (1024 +) */
-@media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
 
-   /* SQUAD PAGE */
-    /* Makes the squad role sections look better by grouping 4 images per row */
+        /* SQUAD PAGE */
+        /* Makes the squad role sections look better by grouping 4 images per row */
         .ind_role {
             width: 22%;
         }
 
+        /* FORM PAGE */
+        #combined {
+            justify-content: space-around;
+            width: 75%;
+            margin: auto;
+        }
+        
+        #details {
+            max-width: 95%;
+        }
+
+        #position {
+            width: 100%;
+        }
+
+        #radio {
+            max-width: 35%;
+        }
+          
+        #radio .option {
+            display: inline-flex;
+    
+        }
+    
+        #dropdown {
+              width: 23%;
+                 }
+    
+
         /* SUBMISSION PAGE */
 
-    #submission_message {
-        left: 15%;
+        #submission_message {
+            left: 15%;
         }
     }
 
@@ -720,7 +815,7 @@ footer {
     @media screen and (orientation:landscape) {
         #signup {
             position: relative;
-      /* Styles the bg image and form size on landscape phones */
+            /* Styles the bg image and form size on landscape phones */
             background-image: url("../images/CELEB.jpg");
             opacity: 0.85;
             background-size: cover;

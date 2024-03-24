@@ -30,6 +30,7 @@ header {
     max-height: 5em;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
     border-bottom: 1px solid slateblue;
     /* Added slight bottom border to header to distinguish it easier */
 }
@@ -315,7 +316,7 @@ div>img {
 #signup {
     /* Adds and styles an image for the form's background */
     background-image: url("../images/CELEB.jpg");
-    /*opacity: 0.85; Commented out as would like to add but causes issues with the dropdown */
+    opacity: 0.85;
     background-size: cover;
     background-position: center;
     color: white;
@@ -450,6 +451,7 @@ fieldset {
 /* SUBMISSION PAGE */
 #submission {
     background: url(../images/Thumbs_up.webp) fixed center no-repeat;
+    opacity: 0.95;
     border-radius: 10%;
     position: relative;
     color: white;
@@ -457,17 +459,19 @@ fieldset {
     height: 70vh;
     margin-top: 15%;
     margin-bottom: 15%;
+    z-index: 1;
 }
 
-#submission h2 {
-    position: fixed;
-    margin-top: 25rem;
-    margin-left: auto;
-    margin-right: auto;
+#submission_message {
+    position: absolute;
+   bottom: 10%;
+   left: 2.5%;
     padding: 0.5rem;
     width: 90%;
         background-color: rgba(0, 0, 0, 0.75);
         border-radius: 5%;
+        text-align: center;
+        font-size: large;
 }
 
 /* Footer */
@@ -597,12 +601,12 @@ footer {
         margin-top: 1rem;
         margin-left: 15%;
         margin-right: 15%;
-    }
+         }
 
-    #submission h2 {
+    #submission_message {
         max-width: 55%;
         margin: 400px auto auto 50px;
-    }
+        }
 }
 
 /* Media query for laptops (992px +) */
@@ -692,5 +696,11 @@ footer {
     /* Makes the squad role sections look better by grouping 4 images per row */
         .ind_role {
             width: 22%;
+        }
+
+        /* SUBMISSION PAGE */
+
+    #submission_message {
+        left: 15%;
         }
     }

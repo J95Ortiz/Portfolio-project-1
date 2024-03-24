@@ -325,7 +325,9 @@ div>img {
 }
 
 #signup form {
-    margin: 3%;
+    margin: 1%;
+    display: block;
+
 }
 
 /* Styles the form's header */
@@ -334,11 +336,15 @@ div>img {
     text-transform: uppercase;
     margin-top: 15px;
     padding: 0.25em;
+    background-color: rgba(0, 0, 0, 00.75);
+    border-radius: 15%;
 }
 
 form>div {
     border: 1px solid gold;
-    margin: 0.75em 0 0.75em 0;
+    margin: 0.5em 0 0.5em 0;
+    min-height: fit-content;
+    align-items: center;
 }
 
 .form_label {
@@ -368,6 +374,7 @@ form>div {
     margin: 0.25em;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
+    color: white;
 }
 
 /* Background colours for form sections so they look more appealing to the user */
@@ -579,6 +586,10 @@ footer {
     }
 
     /* FORM PAGE */
+    #form-header {
+        margin: 10px;
+    }
+    
     #signup {
         /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
         opacity: 0.9;
@@ -702,5 +713,20 @@ footer {
 
     #submission_message {
         left: 15%;
+        }
+    }
+
+    /* Media queries for landscape phones */
+    @media screen and (orientation:landscape) {
+        #signup {
+            position: relative;
+      /* Styles the bg image and form size on landscape phones */
+            background-image: url("../images/CELEB.jpg");
+            opacity: 0.85;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin: 1% auto;
+            height: 575px;
         }
     }

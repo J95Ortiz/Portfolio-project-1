@@ -622,7 +622,7 @@ footer {
 
     #details {
         display: flex;
-        max-width: 45%;
+        max-width: 40%;
         flex-direction: row;
         flex-wrap: wrap;
         margin: auto;

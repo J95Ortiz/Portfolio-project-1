@@ -776,14 +776,18 @@ footer {
         }
 
         /* FORM PAGE */
+        #signup form {
+            margin-top: 77px;
+        }
+        
         #combined {
             justify-content: space-around;
-            width: 75%;
+            width: 95%;
             margin: auto;
         }
         
         #details {
-            max-width: 95%;
+            max-width: 20%;
         }
 
         #position {
@@ -803,6 +807,12 @@ footer {
               width: 23%;
                  }
     
+                 #fieldset {
+                    margin: auto;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    width: 75%;
+                 }
 
         /* SUBMISSION PAGE */
 

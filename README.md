@@ -8,7 +8,7 @@ My hope is that the user finds this site a useful page with information highligh
 
 I hope you find your experience on the site reflects the passion and feelings that Madridistas feel when supporting our team.
 
-Find out our most recent trophy hauls, check out the Bernabeu's renovations on the main page and meet the squad by accessing the site [Real Madrid] (https://j95ortiz.github.io/Real-Madrid-Portfolio-project-1/index.html)
+Find out our most recent trophy hauls, check out the Bernabeu's renovations on the main page and meet the squad by accessing the site [Real Madrid](https://j95ortiz.github.io/Real-Madrid-Portfolio-project-1/index.html)
 
 ## FEATURES
 

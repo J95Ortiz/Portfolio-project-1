@@ -612,14 +612,20 @@ footer {
 
     /* Centers content so it doesn't look so wide */
     #signup form {
-        width: 90%;
+        width: 95%;
         margin: auto;
         height: auto;
     }
 
+    #combined {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     #details {
         display: flex;
-        max-width: 40%;
+        max-width: 45%;
         flex-direction: row;
         flex-wrap: wrap;
         margin: auto;
@@ -642,13 +648,6 @@ footer {
     width: 90%;
     margin: auto;
 }
-
-#combined {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 
     /* SUBMISSION PAGE */
     #submission {

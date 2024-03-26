@@ -8,7 +8,7 @@ My hope is that the user finds this site a useful page with information highligh
 
 I hope you find your experience on the site reflects the passion and feelings that Madridistas feel when supporting our team.
 
-Find out our most recent trophy hauls, check out the Bernabeu's renovations on the main page and meet the squad by accessing the site [Real Madrid](https://j95ortiz.github.io/Real-Madrid-Portfolio-project-1/index.html)
+Find out our most recent trophy hauls, check out the Bernabeu's renovations on the main page and meet the squad by accessing the site - [Real Madrid](https://j95ortiz.github.io/Real-Madrid-Portfolio-project-1/index.html)
 
 ## FEATURES
 
@@ -22,12 +22,47 @@ Even though the Club's main colour is white, I decided to go with a darker theme
 
 Any external links have been designed to open in a new tab so that the user always has access to the landing page should they wish to return.
 
-The Club's crest was used to 
+The Club's crest was used as a background across all pages so as to ensure the user feels the content across all pages on the site are related.
+
+#### Navigation bar and Dropdown Menu
+
+The navigation bar was designed to be flexible and appears differently across different devices. 
+
+On mobile screens (unless landscape), the menu will appear as a dropdown where the user can then select which page they want to visit. 
+
+On larger screens and landscape phone the bar will appear as a menu instead with links to all the pages on display and easily accessible. 
+
+#### Index Page
+
+#### Squad Page
+
+#### Form Page
+
+#### Submitted Form Page
+
+#### Future Features
+
+## USER EXPERIENCE
+
+### Wireframes Created
+
+### Site Structure
+
+### Design Choices
 
 ## TESTING
+
+### Troubleshooting
+
+### Validator Testing
 
 ## DEPLOYMENT
 
 ## CREDIT
 
+### Content Credits
+
+### Media Credits
+
+## ADDITIONAL INFO
 

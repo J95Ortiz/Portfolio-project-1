@@ -25,13 +25,15 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <img id="logo" src="assets/images/Logo.png" alt="An image of Real Madrid's Crest which can return the user to the main page if clicked on">
+            <img id="logo" src="assets/images/Logo.png"
+                alt="An image of Real Madrid's Crest which can return the user to the main page if clicked on">
         </a>
         <a href="index.html">
             <h1 id="logo2">REAL MADRID CLUB DE FUTBOL</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <!-- Dropdown/Header Menu -->
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -46,8 +48,11 @@
         <!-- Form to meet a player -->
         <section id="signup">
             <h3 id="form-header">Complete the form below for a chance to meet a player!</h3>
+            <!-- Actual Form -->
             <form action="submitted_form.html" id="meet-greet" method="get">
+               <!-- "Combined" includes the first three sections so as to make them flex depending on screen sizes -->
                 <div id="combined">
+                    <!--Personal Details Section -->
                     <div id="details">
                         <label for="name" class="form_label">Name:</label>
                         <input type="text" name="name" id="name" class="text-input" required>
@@ -60,7 +65,7 @@
                         <br>
                     </div>
 
-
+<!--Player Position Section -->
                     <div id="radio">
                         <h4 id="position">What position do they play in?</h4>
                         <div class="option">
@@ -84,6 +89,7 @@
                                 value="attack" required>
                         </div>
                     </div>
+                    <!--Dropdown to choose a Player Section -->
                     <div id="dropdown" class="combined">
                         <label for="player_list" class="form_label">Choose a player from the dropdown</label>
                         <select id="player_list" name="player_list">
@@ -115,6 +121,7 @@
                         </select>
                     </div>
                 </div>
+                <!-- Comment Section -->
                 <div id="fieldset">
                     <fieldset>
                         <legend>Comment</legend>
@@ -123,6 +130,7 @@
                         <textarea name="comment" id="comment" class="text-input" cols="30" rows="7"></textarea>
                     </fieldset>
                 </div>
+                <!--Submit Button-->
                 <button type="submit" id="submit">Good Luck!</button>
             </form>
         </section>
@@ -147,8 +155,6 @@
                     aria-label="Visit our TikTok Page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a></li>
         </ul>
     </footer>
-    <!-- Font Awesome Kit link -->
-    <script src="https://kit.fontawesome.com/9e2b843046.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

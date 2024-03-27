@@ -1,5 +1,11 @@
 # REAL MADRID LANDING PAGE
 
+*** USE A SALES PITCH VOICE AND DON'T PRESENT IT AS A PORTFOLIO PROJECT ***
+
+*** WHAT'S IT MEANT TO ACCOMPLISH ***
+
+*** WHO'S YOUR TARGET AUDIENCE AND WHY THEM ***
+
 Real Madrid is the football team I've always supported. Football as a whole, and Real specifically are areas I'm very passionate about. As this site is the first site I've built, I chose Real Madrid as my inspiration because I believe that building anything around a subject you have a strong passion and affinity for, makes the ability to convey these feelings across a lot easier.
 
 Another reason for choosing this subject specifically, was that when I visited Real Madrid's official site I didn't feel that the most recent and impressive accolades the club has achieved over their recent history were shown on their main page. As the Club is a huge entity there is more focus on recent news, and the site is split into the men's first team, the youth teams, the women's first team and the basketball team. As such and because my passion is football I chose to focus solely on the men's first team, their past legends and achievements and current squad.
@@ -17,6 +23,8 @@ My hope is that the user finds this site a useful page with information highligh
 ### Wireframes Created
 
 ### Site Structure
+
+*** LAY OUT THE 4 PAGES WITH SCREENSHOTS AND LAYOUT ***
 
 ### Design Choices
 
@@ -74,7 +82,11 @@ On larger screens and landscape phone the bar will appear as a menu instead with
 
 ### Learning Outcomes
 
-better nunderstanding around flexbox
+Better nunderstanding around flexbox, CSS & Positioning.
+
+Learned how to link different pages together & proved to myself I have the initiative to look for solutions online when I get stuck.
+
+It's a great learning processand helped me become better at planning and gave me exposure to various technologies and platforms which I'll be using in my future Web Development Career such as wireframes, repositories, favicons etc.
 
 
 

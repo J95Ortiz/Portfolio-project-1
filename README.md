@@ -64,21 +64,37 @@ On larger screens and landscape phone the bar will appear as a menu instead with
 
 ## TESTING
 
+*** HIGHLIGHT HOW THE SITE IS FLEXIBLE ACROSS DIFFERENT SIZES ***
+
+*** OUTLINE WHAT TESTING DONE ***
+
 ### Troubleshooting
 
 ### Validator Testing
 
+*** HTML VALIDATION RESULTS FOR ALL PAGES ***
+
+*** CSS VALIDATION RESULT ***
+
 ## DEPLOYMENT
+
+*** STEPS A USER WOULD HAVE TO TAKE TO DEPLOY ***
 
 ## CREDIT
 
 ### Content Credits
 
+*** ICONS, TOP SCORERS & TROPHIES INFO ***
+
 ### Media Credits
 
-## ACKNOWLEDGEMENTS
+*** IFRAMES, IMG SOURCES & SOCIAL LINKS  ***
 
 ## ADDITIONAL INFO
+
+### Acknowledgements
+
+*** MENTION PRECIOUS, THE WAWASWOOD GUY ***
 
 ### Learning Outcomes
 

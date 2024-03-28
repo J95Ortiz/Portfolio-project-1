@@ -238,7 +238,8 @@ div {
 }
 
 /* Styles applied to both internal link boxes to maintain previous appearance after amending button to <a> only*/
-#squad-link>h2, #form-link>h2 {
+#squad-link>h2,
+#form-link>h2 {
     padding-bottom: 15px;
 }
 
@@ -333,19 +334,20 @@ div>img {
     opacity: 0.85;
     background-size: cover;
     background-position: center;
-   color: white;
-       overflow-y: auto;
-   display:flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   border-radius: 5%;
-   align-self: center;
-   height: 82vh;
+    color: white;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    align-self: center;
+    height: 82vh;
 }
 
 /* Styles the form's header */
 #form_header {
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,17 +356,28 @@ div>img {
     text-align: center;
     padding-top: 0.25rem;
 }
+
+form {
+    display: flex;
+}
+
 /* Styles the form with inputs */
 #meet-greet {
     padding: 3px;
     flex-direction: column;
     align-self: flex-start;
     width: 100%;
-    }
-
-#details, #radio, #dropdown, #fieldset {
     border: 1px solid gold;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 
+    5%;
+}
+
+#details,
+#radio,
+#dropdown,
+#fieldset {
+   
     /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
     min-width: 100%;
 }
@@ -374,7 +387,12 @@ div>img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  border: none;
+    border: none;
+}
+
+#details {
+    display: flex;
+    align-self: center;
 }
 
 #details_box {
@@ -399,14 +417,15 @@ div>img {
 .position {
     text-align: center;
     margin: auto;
-    padding: 2%;   }
+    padding: 2%;
+}
 
 /* Position Dropdown Styles */
 #dropdown {
-    padding: 0.25em;
-    display: flex;
+   display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5px;
 }
 
 #player_list {
@@ -416,7 +435,7 @@ div>img {
     align-self: center;
     margin: auto;
     padding: 0.25em;
- margin-bottom: 2%;   
+    margin-bottom: 2%;
 }
 
 /* Div containing radio button options on the Lotto Page */
@@ -427,8 +446,8 @@ div>img {
     justify-content: space-evenly;
     align-content: center;
     border: none;
-padding: 0.25em;
-    }
+    padding: 0.25em;
+}
 
 .option {
     display: inline-flex;
@@ -437,14 +456,14 @@ padding: 0.25em;
     flex-wrap: wrap;
     border: none;
     margin: 0.25rem;
-        align-self: center;
+    align-self: center;
     margin: auto;
- margin-bottom: 2%;   
-   }
+    margin-bottom: 2%;
+}
 
 .form_label {
     margin: auto;
-    padding: 0.2rem;   
+    padding: 0.2rem;
 }
 
 /* Styles for the Comment Section */
@@ -452,13 +471,15 @@ padding: 0.25em;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0.5em;
     display: flex;
+    border: none;
     flex-wrap: nowrap;
-    size: auto;    
+    size: auto;
     justify-content: center;
 }
 
 fieldset {
     padding: 0.25rem;
+    min-width: 100%;
 }
 
 #comment {
@@ -610,11 +631,13 @@ footer {
 
     /* FORM PAGE */
     #form_header {
-        background-color: black;
         padding-bottom: 0.25rem;
     }
 
-    #details, #radio, #dropdown, #fieldset {
+    #details,
+    #radio,
+    #dropdown,
+    #fieldset {
         border: 1px solid gold;
         background-color: rgba(0, 0, 0, 0.6);
         /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
@@ -629,7 +652,7 @@ footer {
     #position_box {
         padding: 3%;
     }
-   
+
     /* SUBMISSION PAGE */
     #submission {
         margin-top: 1rem;
@@ -702,31 +725,53 @@ footer {
     }
 
     /* FORM PAGE */
-     #details, #radio, #dropdown, #fieldset {
+    #details,
+    #radio,
+    #dropdown,
+    #fieldset {
         border: 1px solid gold;
         background-color: rgba(0, 0, 0, 0.6);
         /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
-                min-width: 250px;
-                width: auto;
+        min-width: 250px;
+        width: auto;
     }
 }
 
 /* Media query for laptops (1024 +) */
-    @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
 
-        /* SQUAD PAGE */
-        /* Makes the squad role sections look better by grouping 4 images per row */
-        .ind_role {
-            width: 22%;
-        }
-
-     /* SUBMISSION PAGE */
-        #submission_message {
-            left: 15%;
-        }
+    /* SQUAD PAGE */
+    /* Makes the squad role sections look better by grouping 4 images per row */
+    .ind_role {
+        width: 22%;
     }
 
-    /* Media queries for landscape phones 
+    /* FORM PAGE */
+    #details {
+        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
+        width: auto;
+        min-width: 250px;
+    }
+
+    #dropdown {
+        width:auto;
+        min-width: 500px;
+    }
+    
+    #radio,
+        #fieldset {
+        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
+        width: auto;
+        min-width: 350px;
+    }
+
+    /* SUBMISSION PAGE */
+    #submission_message {
+        left: 15%;
+    }
+}
+
+/* Media queries for landscape phones 
     @media screen and (orientation:landscape) {
         #signup {
             position: relative;

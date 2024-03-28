@@ -122,7 +122,7 @@ div {
     display: block;
     margin: 5px;
     /* Applied some margins so the background image is more noticeable */
-    min-height: 50px;
+    min-height: 30px;
 }
 
 /* INDEX PAGE */
@@ -334,31 +334,39 @@ div>img {
     background-size: cover;
     background-position: center;
     color: white;
-    margin: 0.5em;
-    height: 81vh;
+    margin: auto;
+   overflow-y: auto;
 }
 
 #signup form {
-    margin: 1%;
-    display: block;
     padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    border: none;
+}
 
+#combined {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  border: none;
 }
 
 /* Styles the form's header */
 #form-header {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 15px;
     padding: 0.25em;
     background-color: rgba(0, 0, 0, 00.75);
     border-radius: 15%;
 }
 
 form>div {
-    border: 1px solid gold;
     margin: 0.5em 0 0.5em 0;
-    min-height: fit-content;
+    min-height: 30px;
     align-items: center;
 }
 
@@ -372,10 +380,12 @@ form>div {
 #meet-greet {
     background-color: rgba(192, 192, 192, 0.3);
     padding: 3px;
-    display: flex;
     flex-direction: column;
-    height: 70vh;
+    margin: auto;
+    }
 
+#details, #radio, #dropdown, #fieldset {
+    border: 1px solid gold;
 }
 
 #details {
@@ -393,40 +403,42 @@ form>div {
     color: white;
 }
 
-#combined {
-    border: none;
-}
-
-#combined div {
-    border: 1px solid gold;
-}
-
 /* Background colours for form sections so they look more appealing to the user */
+
 #radio {
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: center;
 }
 
+/* Div containing radio button options on the Lotto Page */
+#position_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    border: none;
+}
+
 /* Makes the position section in the form look better by centering its contents */
-#radio h4,
-#radio div {
+#radio h4 {
     text-align: center;
     padding: 0.25em;
     margin: 3px;
 }
 
-#radio div {
+#position_box>div {
     display: inline-flex;
-    align-content: space-around;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     border: none;
 }
 
 .option {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin: auto;
+    padding: 0.25rem;
    }
 
 .form-position {
@@ -457,6 +469,9 @@ option {
 #fieldset {
     background-color: rgba(90, 34, 139, 0.5);
     padding: 0.25em;
+    display: flex;
+    flex-wrap: nowrap;
+    size: auto;    
 }
 
 /* Styles for the Comment Section */
@@ -629,41 +644,7 @@ footer {
     /* Centers content so it doesn't look so wide */
     #signup form {
         width: 95%;
-        margin: auto;
-        height: auto;
     }
-
-    #combined {
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    #details {
-        display: flex;
-        max-width: 45%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: auto;
-        justify-content: center;
-    }
-
-    .option {
-        border: none;
-    }
-
-#radio {
-    max-width: 45%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#dropdown {
-    width: 90%;
-    margin: auto;
-}
 
     /* SUBMISSION PAGE */
     #submission {
@@ -751,31 +732,7 @@ footer {
     #signup form {
         width: 95%;
         margin-top: 2rem;
-        margin: auto;
-    }
-
-        #combined {
-        display: inline-flex;
-    }
-
-    #details {
-        max-width: 30%;
-    }
-
-    #position {
-        width: 100%;
-    }
-    
-    #radio .option {
-        display: inline-flex;
-
-    }
-
-    #dropdown {
-          width: 23%;
-          flex-shrink: 1;
-    }
-
+            }
 }
 
 /* Media query for laptops (1024 +) */
@@ -788,7 +745,7 @@ footer {
         }
 
         /* FORM PAGE */
-        #signup form {
+       /* #signup form {
             margin-top: 77px;
         }
         
@@ -799,7 +756,7 @@ footer {
         }
         
         #details {
-            max-width: 20%;
+            max-width: 22%;
         }
 
         #position {

@@ -45,8 +45,10 @@
     <!-- Main Content -->
     <main>
         <!-- Form to meet a player -->
-        <section id="signup">
-            <h3 id="form-header">Complete the form below for a chance to meet a player!</h3>
+        <div id="signup">
+            <div id="form-header">
+                <h3 id="form_caption">Complete the form below for a chance to meet a player!</h3>
+            </div>
             <!-- Actual Form -->
             <form action="submitted_form.html" id="meet-greet" method="get">
                 <!-- "Combined" includes the first three sections so as to make them flex depending on screen sizes -->
@@ -71,7 +73,7 @@
 
                     <!--Dropdown to choose a Player Section -->
                     <div id="dropdown" class="combined">
-                        <label for="player_list" class="form_label">Choose a player from the dropdown</label>
+                        <label for="player_list"><h4 class="position">Choose a player from the dropdown</h4></label>
                         <select id="player_list" name="player_list">
                             <option>Current Squad Players...</option>
                             <option value="Alaba">Alaba</option>
@@ -102,7 +104,7 @@
                     </div>
                     <!--Player Position Section -->
                     <div id="radio">
-                        <h4 id="position">What position do they play in?</h4>
+                        <h4 class="position">What position do they play in?</h4>
                         <div id="position_box">
                             <div class="option">
                                 <label for="goalkeeper" class="form_label">Goalkeeper</label>
@@ -139,7 +141,7 @@
                 <!--Submit Button-->
                 <button type="submit" id="submit">Good Luck!</button>
             </form>
-        </section>
+        </div>
     </main>
     <!-- Footer -->
     <footer>

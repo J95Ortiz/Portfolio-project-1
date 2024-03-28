@@ -328,27 +328,44 @@ div>img {
 
 /* FORM PAGE */
 #signup {
-    /* Adds and styles an image for the form's background */
+    /* Adds and styles the form's background */
     background-image: url("../images/CELEB.jpg");
     opacity: 0.85;
     background-size: cover;
     background-position: center;
-    color: white;
-    margin: auto auto;
-   overflow-y: auto;
-   display:inline-flex;
+   color: white;
+       overflow-y: auto;
+   display:flex;
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
+   border-radius: 5%;
+   align-self: center;
+   height: 82vh;
 }
 
-#signup form {
-    padding: 5px;
+/* Styles the form's header */
+#form-header {
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    border: none;
+    text-transform: uppercase;
+    flex-grow: 2;
+    text-align: center;
+    padding-top: 0.25rem;
+}
+/* Styles the form with inputs */
+#meet-greet {
+    padding: 3px;
+    flex-direction: column;
+    align-self: flex-start;
+    }
+
+#details, #radio, #dropdown, #fieldset {
+    border: 1px solid gold;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
+    width: 95%;
 }
 
 #combined {
@@ -359,41 +376,6 @@ div>img {
   border: none;
 }
 
-/* Styles the form's header */
-#form-header {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 0.25em;
-    background-color: rgba(0, 0, 0, 00.75);
-    border-radius: 15%;
-}
-
-form>div {
-    margin: 0.5em 0 0.5em 0;
-    min-height: 30px;
-    align-items: center;
-}
-
-.form_label {
-    margin: 2px;
-    padding: 3px;
-    opacity: 0.9;
-}
-
-/* Background colours for form sections so they look more appealing to the user */
-#meet-greet {
-    background-color: rgba(192, 192, 192, 0.3);
-    padding: 3px;
-    flex-direction: column;
-    margin: auto;
-    }
-
-#details, #radio, #dropdown, #fieldset {
-    border: 1px solid gold;
-    /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
-    width: 95%;
-}
-
 #details_box {
     display: flex;
     align-items: center;
@@ -401,8 +383,9 @@ form>div {
     flex-wrap: wrap;
 }
 
-.form_label {
-    align-self: flex-start;
+/* Styles the headers in the position sections */
+.position {
+    text-align: center;
 }
 
 #details>label {
@@ -416,12 +399,9 @@ form>div {
     color: white;
 }
 
-/* Background colours for form sections so they look more appealing to the user */
-
-#radio {
+radio {
     background-color: rgba(0, 0, 0, 0.6);
-   margin: auto;
-}
+  }
 
 /* Div containing radio button options on the Lotto Page */
 #position_box {
@@ -432,27 +412,6 @@ form>div {
     align-content: center;
     align-items: center;
     border: none;
-}
-
-/* Makes the position section in the form look better by centering its contents */
-#radio h4 {
-    text-align: center;
-    padding: 0.25em;
-    margin: 3px;
-}
-
-.option {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: none;
-    margin: auto;
-    align-self: center;
-   }
-
-.form-position {
-    margin-top: 5px;
 }
 
 /* Background colours for form sections so they look more appealing to the user */
@@ -471,8 +430,25 @@ form>div {
     padding: 0.25em;
 }
 
-option {
-    background-color: black;
+/* Makes the position section in the form look better by centering its contents */
+#radio h4 {
+    text-align: center;
+    padding: 0.25em;
+    margin: 3px;
+}
+
+.option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: none;
+    margin: 0.25rem;
+    align-self: center;
+   }
+
+.form-position {
+    margin-top: 5px;   
 }
 
 /* Styles for the Comment Section */
@@ -636,13 +612,13 @@ footer {
         padding-top: 9px;
     }
 
-    /* FORM PAGE */
+    /* FORM PAGE 
     #form-header {
         margin: 10px;
     }
 
     #signup {
-        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
+        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header 
         opacity: 0.9;
         width: 85%;
         margin-top: 0.25em;
@@ -651,12 +627,7 @@ footer {
         margin-right: auto;
         padding-top: 1rem;
     }
-
-    /* Centers content so it doesn't look so wide */
-    #signup form {
-        width: 95%;
-    }
-
+*/
     /* SUBMISSION PAGE */
     #submission {
         margin-top: 1rem;
@@ -728,9 +699,9 @@ footer {
         border: none;
     }
 
-    /* FORM PAGE */
+    /* FORM PAGE 
     #signup {
-        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header */
+        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header 
         opacity: 0.9;
         width: 90%;
         margin-top: 0.65em;
@@ -739,11 +710,12 @@ footer {
         padding-top: 1rem;
     }
 
-    /* Centers content so it doesn't look so wide */
+    /* Centers content so it doesn't look so wide 
     #signup form {
         width: 95%;
         margin-top: 2rem;
             }
+            */
 }
 
 /* Media query for laptops (1024 +) */
@@ -761,15 +733,15 @@ footer {
         }
     }
 
-    /* Media queries for landscape phones */
+    /* Media queries for landscape phones 
     @media screen and (orientation:landscape) {
         #signup {
             position: relative;
-            /* Styles the bg image and form size on landscape phones */
+            /* Styles the bg image and form size on landscape phones 
             background-image: url("../images/CELEB.jpg");
             opacity: 0.85;
             background-size: cover;
             background-position: center;
             color: white;
                     }
-    }
+    }*/

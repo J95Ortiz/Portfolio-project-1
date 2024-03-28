@@ -345,7 +345,7 @@ div>img {
 }
 
 /* Styles the form's header */
-#form-header {
+#form_header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,13 +359,14 @@ div>img {
     padding: 3px;
     flex-direction: column;
     align-self: flex-start;
+    width: 100%;
     }
 
 #details, #radio, #dropdown, #fieldset {
     border: 1px solid gold;
     background-color: rgba(0, 0, 0, 0.6);
     /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
-    width: 95%;
+    min-width: 100%;
 }
 
 #combined {
@@ -383,25 +384,40 @@ div>img {
     flex-wrap: wrap;
 }
 
-/* Styles the headers in the position sections */
-.position {
-    text-align: center;
-}
-
 #details>label {
     text-decoration: 1px solid white;
 }
 
 .text-input {
-    margin: 0.25em;
+    margin: 0.1em;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     color: white;
 }
 
-radio {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
+/* Styles the headers in the position sections */
+.position {
+    text-align: center;
+    margin: auto;
+    padding: 2%;   }
+
+/* Position Dropdown Styles */
+#dropdown {
+    padding: 0.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player_list {
+    border: 1px solid gold;
+    background-color: rgba(192, 192, 192, 0.5);
+    color: white;
+    align-self: center;
+    margin: auto;
+    padding: 0.25em;
+ margin-bottom: 2%;   
+}
 
 /* Div containing radio button options on the Lotto Page */
 #position_box {
@@ -410,32 +426,9 @@ radio {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    align-items: center;
     border: none;
-}
-
-/* Background colours for form sections so they look more appealing to the user */
-#dropdown {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.25em;
-    align-items: center;
-}
-
-#player_list {
-    border: 1px solid gold;
-    background-color: rgba(192, 192, 192, 0.5);
-    color: white;
-    display: block;
-    margin: 0.25em auto;
-    padding: 0.25em;
-}
-
-/* Makes the position section in the form look better by centering its contents */
-#radio h4 {
-    text-align: center;
-    padding: 0.25em;
-    margin: 3px;
-}
+padding: 0.25em;
+    }
 
 .option {
     display: inline-flex;
@@ -444,16 +437,19 @@ radio {
     flex-wrap: wrap;
     border: none;
     margin: 0.25rem;
-    align-self: center;
+        align-self: center;
+    margin: auto;
+ margin-bottom: 2%;   
    }
 
-.form-position {
-    margin-top: 5px;   
+.form_label {
+    margin: auto;
+    padding: 0.2rem;   
 }
 
 /* Styles for the Comment Section */
 #fieldset {
-    background-color: rgba(90, 34, 139, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 0.5em;
     display: flex;
     flex-wrap: nowrap;
@@ -612,22 +608,28 @@ footer {
         padding-top: 9px;
     }
 
-    /* FORM PAGE 
-    #form-header {
-        margin: 10px;
+    /* FORM PAGE */
+    #form_header {
+        background-color: black;
+        padding-bottom: 0.25rem;
     }
 
-    #signup {
-        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header 
-        opacity: 0.9;
-        width: 85%;
-        margin-top: 0.25em;
-        margin-bottom: 0.25em;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 1rem;
+    #details, #radio, #dropdown, #fieldset {
+        border: 1px solid gold;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
+        width: 45%;
+        min-width: 308px;
     }
-*/
+
+    #radio {
+        align-content: center;
+    }
+
+    #position_box {
+        padding: 3%;
+    }
+   
     /* SUBMISSION PAGE */
     #submission {
         margin-top: 1rem;
@@ -699,23 +701,14 @@ footer {
         border: none;
     }
 
-    /* FORM PAGE 
-    #signup {
-        /* Makes Bellingham image semi transparent as looks better and no issue with dropdown due to menu being in the header 
-        opacity: 0.9;
-        width: 90%;
-        margin-top: 0.65em;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 1rem;
+    /* FORM PAGE */
+     #details, #radio, #dropdown, #fieldset {
+        border: 1px solid gold;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
+                min-width: 250px;
+                width: auto;
     }
-
-    /* Centers content so it doesn't look so wide 
-    #signup form {
-        width: 95%;
-        margin-top: 2rem;
-            }
-            */
 }
 
 /* Media query for laptops (1024 +) */

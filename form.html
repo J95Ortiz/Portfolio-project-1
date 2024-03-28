@@ -53,42 +53,22 @@
                 <div id="combined">
                     <!--Personal Details Section -->
                     <div id="details">
-                        <label for="name" class="form_label">Name:</label>
-                        <input type="text" name="name" id="name" class="text-input" required>
-                        <br>
-                        <label for="surname" class="form_label">Phone:</label>
-                        <input type="tel" name="phone" id="phone" class="text-input" required>
-                        <br>
-                        <label for="email" class="form_label">Email:</label>
-                        <input type="email" name="email" id="email" class="text-input" required>
-                        <br>
-                    </div>
-                    <!--Player Position Section -->
-                    <div id="radio">
-                        <h4 id="position">What position do they play in?</h4>
-                        <div id="position_box">
-                            <div class="option">
-                                <label for="goalkeeper" class="form_label">Goalkeeper</label>
-                                <input type="radio" name="player_preference" class="form-position" id="goalkeeper"
-                                    value="goalkeeper" required>
+                        <div id="details_box">
+                            <div><label for="name" class="form_label">Name:</label>
+                                <input type="text" name="name" id="name" class="text-input" required>
                             </div>
-                            <div class="option">
-                                <label for="defense" class="form_label">Defense</label>
-                                <input type="radio" name="player_preference" id="defense" class="form-position"
-                                    value="defense" required>
+                            <br>
+                            <div><label for="surname" class="form_label">Phone:</label>
+                                <input type="tel" name="phone" id="phone" class="text-input" required>
                             </div>
-                            <div class="option">
-                                <label for="midfield" class="form_label">Midfield</label>
-                                <input type="radio" name="player_preference" id="midfield" class="form-position"
-                                    value="midfield" required>
+                            <br>
+                            <div><label for="email" class="form_label">Email:</label>
+                                <input type="email" name="email" id="email" class="text-input" required>
                             </div>
-                            <div class="option">
-                                <label for="attack" class="form_label">Attack</label>
-                                <input type="radio" name="player_preference" id="attack" class="form-position"
-                                    value="attack" required>
-                            </div>
+                            <br>
                         </div>
                     </div>
+
                     <!--Dropdown to choose a Player Section -->
                     <div id="dropdown" class="combined">
                         <label for="player_list" class="form_label">Choose a player from the dropdown</label>
@@ -120,7 +100,32 @@
                             <option value="Other">Other, add details below</option>
                         </select>
                     </div>
-
+                    <!--Player Position Section -->
+                    <div id="radio">
+                        <h4 id="position">What position do they play in?</h4>
+                        <div id="position_box">
+                            <div class="option">
+                                <label for="goalkeeper" class="form_label">Goalkeeper</label>
+                                <input type="radio" name="player_preference" class="form-position" id="goalkeeper"
+                                    value="goalkeeper" required>
+                            </div>
+                            <div class="option">
+                                <label for="defense" class="form_label">Defense</label>
+                                <input type="radio" name="player_preference" id="defense" class="form-position"
+                                    value="defense" required>
+                            </div>
+                            <div class="option">
+                                <label for="midfield" class="form_label">Midfield</label>
+                                <input type="radio" name="player_preference" id="midfield" class="form-position"
+                                    value="midfield" required>
+                            </div>
+                            <div class="option">
+                                <label for="attack" class="form_label">Attack</label>
+                                <input type="radio" name="player_preference" id="attack" class="form-position"
+                                    value="attack" required>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Comment Section -->
                     <div id="fieldset">
                         <fieldset>

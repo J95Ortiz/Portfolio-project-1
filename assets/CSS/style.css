@@ -415,26 +415,24 @@ form {
 .position {
     text-align: center;
     margin: auto;
-    padding: 2%;
-}
+    }
 
 /* Position Dropdown Styles */
 #dropdown {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5px;
+    justify-content: center;
 }
 
 #player_list {
     border: 1px solid gold;
     background-color: rgba(192, 192, 192, 0.5);
     color: white;
-    align-self: center;
-    margin: auto;
+    margin: 2% auto;
     padding: 0.25em;
-    margin-bottom: 2%;
-}
+    justify-self: center;
+    }
 
 /* Styles the dropdown lists's colour */
 option {

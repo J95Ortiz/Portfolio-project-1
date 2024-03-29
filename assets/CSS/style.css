@@ -473,7 +473,6 @@ option {
     display: flex;
     border: none;
     flex-wrap: nowrap;
-    size: auto;
     justify-content: center;
 }
 

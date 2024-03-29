@@ -80,6 +80,8 @@ On larger screens and landscape phone the bar will appear as a menu instead with
 
 The footer was created to provide the user with links to the Club's social platforms and when clicked on these links open in a new tab for an increased user experience.
 
+*** SCREENSHOTS ***
+
 #### Index Page
 
 This is the main page the user will see when opening the site and is split into 4 main sections.
@@ -92,17 +94,49 @@ The top section also includes the trophies won by the first team in the last 5 y
 
 *** SCREENSHOTS ***
 
-IFRAMES
+The middle section is taken up by a video showing the renovatoins on Real Madrid's Santiago Bernabeu stadium.
 
-LINKS
+The video was set up so it doesn't autoplay when the page is loaded, increasing the user's experiencce by making them feel they have full control over the site's behaviour.
 
-OFFICIAL LINKS
+*** SCREENSHOTS ***
+
+The section below the video includes links to the other pages of the site, giving the user even more autonomy over how they choose to access these.
+
+*** SCREENSHOTS ***
+
+The last section on the main page contains two more links from which the user can visit the Official site of the club as well as the store on their website.
+
+*** SCREENSHOTS ***
 
 #### Squad Page
 
+This page of the site contains the names and a photo of the first team's head coach and each of their members. 
+
+The page is split into 5 sections based on the main positions on a football pitch, with each squad member having their name and image in their respective section.
+
+The page is set out to be responsive and the amount of squad members' cards per row depends on the viewer's screen size. 
+
+*** SCREENSHOTS ***
+
 #### Form Page
 
+This page is a form that the user can fill and submit for a chance to meet a Real Madrid player.
+
+The form includes a section for the user to input their contact details and this section is required.
+
+The form also includes a dropdown with a list of the squad members, a radio option box for them to say what position  the squad member they choose to meet plays in, as long as a text box for them to include any additional information as to why they chose that player.
+
+Once completed, if they submit the form by pressing the button on the bottom of the form, the landing page is then displayed, and this is the only way the user would be able to access this page.
+
+*** SCREENSHOTS ***
+
 #### Submitted Form Page
+
+The submitted form page is really simple and its only features are the navigation menu and footer present across all pages, as well as an image with a message wishing them good luck in the lotto. 
+
+From here they can return to any of the three main pages.
+
+*** SCREENSHOTS ***
 
 #### Future Features
 

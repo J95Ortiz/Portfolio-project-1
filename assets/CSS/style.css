@@ -508,28 +508,42 @@ textarea:focus {
 
 /* SUBMISSION PAGE */
 #submission {
-    background: url(../images/Thumbs_up.webp) fixed center no-repeat;
+    background-image: url(../images/Thumbs_up.webp);
     opacity: 0.95;
+    background-size: cover;
+    background-position: center;
     border-radius: 10%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        position: relative;
     color: white;
-    margin: 0.5em;
-    height: 70vh;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    height: 82vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
     z-index: 1;
 }
 
 #submission_message {
-    position: absolute;
-    bottom: 10%;
-    left: 2.5%;
-    padding: 0.5rem;
-    width: 90%;
+       padding: 0.25rem;
+    width: 75%;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 5%;
     text-align: center;
     font-size: large;
+align-self: center;
+}
+
+/* Styles the form's header */
+#form_header {
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-transform: uppercase;
+ flex-grow: 2;
+ text-align: center;
+ padding-top: 0.25rem;
 }
 
 /* Footer */
@@ -661,21 +675,20 @@ footer {
 
     /* SUBMISSION PAGE */
     #submission {
-        margin-top: 1rem;
-        margin-left: 15%;
-        margin-right: 15%;
+        width: 500px;
+        margin: auto;
     }
 
     #submission_message {
-        max-width: 55%;
-        margin: 400px auto auto 50px;
+        align-self:center;
+   margin: auto;
     }
 }
 
 /* Media query for laptops (992px +) */
 @media screen and (min-width: 992px) {
 
-    /* gives the elements an underlined when ohvered on */
+    /* gives the elements an underlined when hovered on */
     #menu a:hover {
         border-bottom: 1px solid slateblue;
     }

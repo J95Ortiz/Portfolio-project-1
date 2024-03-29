@@ -296,7 +296,6 @@ div {
     padding: 2px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid gray;
-    overflow-x: hidden;
 }
 
 .cards {
@@ -321,7 +320,7 @@ div {
 }
 
 div>img {
-    height: 350px;
+    height: 300px;
     padding-top: 9px;
 }
 

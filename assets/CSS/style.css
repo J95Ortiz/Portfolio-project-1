@@ -296,7 +296,7 @@ div {
     padding: 2px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid gray;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .cards {
@@ -660,7 +660,7 @@ footer {
     #fieldset {
         border: 1px solid gold;
         background-color: rgba(0, 0, 0, 0.6);
-        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
+        /* Width here makes the items look ok on a larger sized screen */
         width: 45%;
         min-width: 308px;
     }
@@ -757,7 +757,6 @@ footer {
 
 /* Media query for laptops (1024 +) */
 @media screen and (min-width: 1440px) {
-
     /* SQUAD PAGE */
     /* Makes the squad role sections look better by grouping 4 images per row */
     .ind_role {

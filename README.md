@@ -24,8 +24,6 @@ The wireframes created to represent what the initial structure and layout for th
 
 ### Site Structure
 
-*** LAY OUT THE 4 PAGES WITH SCREENSHOTS AND LAYOUT ***
-
 This Real Madrid site is split into 3 main pages:
 
 1. The Main Landing page
@@ -40,31 +38,65 @@ There is also a 4th page which will only be visible to the user once they comple
 
 This Real Madrid landing/tribute page was designed to reflect the spirit of the club as much as possible. The colour combinations used in the design were inspired by the club colours and also those of some of their kits.
 
+*** KITS SCREENSHOTS ***
+
 Even though the Club's main colour is white, the site was designed with a darker theme in mind as people tend to find this more appealing. This alternatice colour scheme should work as a nice contrast to the Official Real Madrid page which has a light theme with navy highlighted elements. The final colour scheme for the site prioritises navy, black and gold.
+
+*** COLOUR SCHEME SCREENSHOTS ***
 
 ## FEATURES
 
-By constantly putting the user's experience at the forefront of the design, the site ensures that they have access to all three main pages of the site at all times. This was achieved by adding a flexible menu in the header which displays as a dropdown on mobile and smaller devices, and as direct links on bigger screen sizes. On bigger screens the design also makes the page the user is currently on underlined in the top bar so that they know exactly what section they are on, and don't feel lost or confused. By doing this the intention is that the user feels confident moving around the site, knows what section they are in at all times, and feels happy to explore the site fully, knowing they are able to return to where they were last with ease. 
+By constantly putting the user's experience at the forefront of the design, the site ensures that they have access to all three main pages of the site at all times by adding a flexible menu in the header which displays as a dropdown on mobile and smaller devices, and as direct links on bigger screen sizes. 
 
-My hope is that the user finds this site a useful page with information highlighting the football side, as well as the top achievments in recent history of Real Madrid. The User should be able to navigate the site easily, and should they wish to visit the official site there are links provided which also allows them to do this. Social media links are also on the footer of all the pages on the site which link to the same sites as the official website does.
+On bigger screens the page the user is currently on will be underlined in the top bar so that they know exactly what section they are on. By doing this the intention is that the user feels confident moving around the site, knowing what section they are in at all times, and feels happy to explore the site fully.
+
+Should the user also wish, links are provided which allows them to visit the official site and store. 
+
+Social media links are displayed on the footer so the user knows what site they're accessing.
 
 ### Main Features
 
-The Site is split into three main sections, with a landing page appearing when the user submits the form.
+The Site is split into three main sections and a landing page which the user will see when the lotto form is submitted.
 
 Any external links have been designed to open in a new tab so that the user always has access to the landing page should they wish to return.
 
-The Club's crest was used as a background across all pages so as to ensure the user feels the content across all pages on the site are related.
+The Navigation Menu and Footer are displayed on all 4 pages of the site.
 
 #### Navigation bar and Dropdown Menu
 
-The navigation bar was designed to be flexible and appears differently across different devices depending on the screen size of the display.
+The navigation bar contains an image of the club's crest, the club's name and links to all three main pages. 
 
-On mobile screens (unless landscape), the menu will appear as a dropdown where the user can then select which page they want to visit. 
+It was designed to be flexible and appears differently across different devices depending on the screen size of the display.
 
-On larger screens and landscape phone the bar will appear as a menu instead with links to all the pages on display and easily accessible. 
+The club's crest and name both work the same way regardless of the screen size and will return the user to the main page when clicked on. 
+
+On mobile screens (unless landscape), the links menu will appear as a dropdown where the user can then select which page they want to visit. 
+
+On larger screens and landscape phone the bar will appear as a menu instead with links to all the pages on display, and easily accessible.
+
+*** SCREENSHOTS OF NAV MENU ON PHONE AND LAPTOP ***
+
+#### Footer
+
+The footer was created to provide the user with links to the Club's social platforms and when clicked on these links open in a new tab for an increased user experience.
 
 #### Index Page
+
+This is the main page the user will see when opening the site and is split into 4 main sections.
+
+The top section contains a table showing the club's all time goalscorers and the colour scheme used is based on their 22/23 away kit.
+
+*** SCREENSHOTS ***
+
+The top section also includes the trophies won by the first team in the last 5 years. The colour scheme for this information was based on this season's third kit.
+
+*** SCREENSHOTS ***
+
+IFRAMES
+
+LINKS
+
+OFFICIAL LINKS
 
 #### Squad Page
 

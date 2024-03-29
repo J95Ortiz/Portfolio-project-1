@@ -41,24 +41,22 @@ header a {
 #logo {
     padding: 6px;
     margin-top: 1px;
-    border-radius: 50%;
     /* Turns #logo into a circle */
+    border-radius: 50%;
 }
 
 /* Styles for the Logo TEXT */
 #logo2 {
     font-size: large;
     align-self: center;
-    justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
+    flex-wrap: wrap;
     padding: 6px;
 }
 
 /* Styles for the Nav Menu */
 #menu {
     display: block;
-    justify-content: center;
     list-style-type: none;
 }
 
@@ -131,14 +129,6 @@ div {
     margin-bottom: 0.25em;
 }
 
-/* Styles for the Trophy div */
-#trophies {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: rgb(243, 170, 31);
-    text-align: center;
-    padding: 1rem;
-}
-
 /* Styles for Scorers Table */
 #scorers {
     background-color: rgba(179, 167, 255, 0.86);
@@ -177,20 +167,28 @@ div {
     font-weight: bold;
 }
 
+/* Styles for the Trophy div */
+#trophies {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgb(243, 170, 31);
+    text-align: center;
+    padding: 1rem;
+}
+
 /* Styles for the Bernabeu renovations video div */
 #bernabeu {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    text-align: center;
     padding: 1em;
-    border: none;
     /* Aligns the headline and video to the middle*/
+    text-align: center;
 }
 
 #bern-vid {
     width: 90%;
     height: 25%;
-    /* Makes video size responsive but need to amend for tablets and bigger */
+    border: none;
+    /* Makes video size responsive */
     padding-bottom: 0.25em;
 }
 
@@ -237,7 +235,7 @@ div {
     margin-top: 0.25em;
 }
 
-/* Styles applied to both internal link boxes to maintain previous appearance after amending button to <a> only*/
+/* Styles applied to both internal link boxes to maintain previous appearance after amending button to <a> only */
 #squad-link>h2,
 #form-link>h2 {
     padding-bottom: 15px;
@@ -369,19 +367,18 @@ form {
     width: 100%;
     border: 1px solid gold;
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 
-    5%;
+    border-radius: 5%;
 }
 
 #details,
 #radio,
 #dropdown,
 #fieldset {
-   
     /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
     min-width: 100%;
 }
 
+/* Styles the form elements between the header and the submit button */
 #combined {
     display: flex;
     flex-direction: row;
@@ -390,9 +387,11 @@ form {
     border: none;
 }
 
+/* Styles the personal details div */
 #details {
     display: flex;
     align-self: center;
+    justify-content: center;
 }
 
 #details_box {
@@ -406,7 +405,7 @@ form {
     text-decoration: 1px solid white;
 }
 
-.text-input {
+.text_input {
     margin: 0.1em;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
@@ -422,7 +421,7 @@ form {
 
 /* Position Dropdown Styles */
 #dropdown {
-   display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
@@ -438,6 +437,11 @@ form {
     margin-bottom: 2%;
 }
 
+/* Styles the dropdown lists's colour */
+option {
+    background-color: black;
+}
+
 /* Div containing radio button options on the Lotto Page */
 #position_box {
     display: flex;
@@ -446,7 +450,6 @@ form {
     justify-content: space-evenly;
     align-content: center;
     border: none;
-    padding: 0.25em;
 }
 
 .option {
@@ -455,10 +458,8 @@ form {
     justify-content: space-around;
     flex-wrap: wrap;
     border: none;
-    margin: 0.25rem;
-    align-self: center;
+   align-self: center;
     margin: auto;
-    margin-bottom: 2%;
 }
 
 .form_label {
@@ -482,20 +483,25 @@ fieldset {
     min-width: 100%;
 }
 
+/* Styles the text input part in the comment section*/
+textarea:focus {
+    border: 1px solid gold;
+    outline: none;    
+}
+
 #comment {
     display: block;
-    margin: 0.25em auto;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.65);
-    border: 1px solid white;
-    color: white;
+        color: white;
 }
 
 /* Submit Button */
 #submit {
     display: block;
-    margin: 0.25em auto;
-    padding: 5px;
-    min-width: 35%;
+    margin: 0.25em auto 1.25em;
+    padding: 2px;
+    min-width: 30%;
     background-color: white;
     color: #580099;
 }
@@ -726,14 +732,13 @@ footer {
 
     /* FORM PAGE */
     #details,
-    #radio,
-    #dropdown,
     #fieldset {
-        border: 1px solid gold;
-        background-color: rgba(0, 0, 0, 0.6);
-        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
-        min-width: 250px;
-        width: auto;
+      width: 50%;
+    }
+
+    #radio,
+    #dropdown {
+        width: 25%;
     }
 }
 
@@ -744,42 +749,5 @@ footer {
     /* Makes the squad role sections look better by grouping 4 images per row */
     .ind_role {
         width: 22%;
-    }
-
-    /* FORM PAGE */
-    #details {
-        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
-        width: auto;
-        min-width: 250px;
-    }
-
-    #dropdown {
-        width:auto;
-        min-width: 500px;
-    }
-    
-    #radio,
-        #fieldset {
-        /* Width here makes all the items look ok on a small phone screen, but will be overridden on larger sizes to fit more content */
-        width: auto;
-        min-width: 350px;
-    }
-
-    /* SUBMISSION PAGE */
-    #submission_message {
-        left: 15%;
-    }
+    }  
 }
-
-/* Media queries for landscape phones 
-    @media screen and (orientation:landscape) {
-        #signup {
-            position: relative;
-            /* Styles the bg image and form size on landscape phones 
-            background-image: url("../images/CELEB.jpg");
-            opacity: 0.85;
-            background-size: cover;
-            background-position: center;
-            color: white;
-                    }
-    }*/

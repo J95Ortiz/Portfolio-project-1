@@ -162,7 +162,7 @@ FORM SUBMISSION PAGE
 
 The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the CSS code and it also passed.
 
-CSS VALIDATION SCREENSHOT
+***CSS VALIDATION SCREENSHOT ***
 
 ### Troubleshooting
 
@@ -172,9 +172,9 @@ The first one was an issue with the settings on my Google Chrome application. Th
 
 The main issue with this was that text which appeared white to me and contrasted well with the black in the header, would show as black for other users. This bug was identified by my mentor Precious Ijege when he loaded the deployed site on his device. 
 
-SCREENSHOTS OF SITE WITH WRONG COLOURS
+*** SCREENSHOTS OF SITE WITH WRONG COLOURS ***
 
-Attempts to resolve this included specifying the colour in the code but this didn't resolve the issue. It was finally resolved by searching for the issue online, and the [solution](https://support.google.com/chrome/thread/213362947/chrome-is-changing-color-theme-each-day-on-its-own?hl=en) was found on the Chrome Support page.  
+Attempts to resolve this included specifying the colour in the code but this didn't resolve the issue. It was finally resolved by searching for the issue online, and the solution was found on the [Chrome Support page](https://support.google.com/chrome/thread/213362947/chrome-is-changing-color-theme-each-day-on-its-own?hl=en).  
 
 *** HIGHLIGHT HOW THE SITE IS FLEXIBLE ACROSS DIFFERENT SIZES ***
 
@@ -182,11 +182,11 @@ In order to ensure that the website's responsiveness worked consistently regardl
 
 *** OUTLINE WHAT TESTING DONE ***
 
-Once the site had been deployed, links to it were sent to people I knew who had access to different devices such as tablets and different sized phones so they could test the site.
+Once the site had been deployed and the colour issue resolved, links were sent to people I knew who had access to different devices such as tablets and different sized phones so they could test the site and see what they thought and how they felt it responded.
 
-Testing was also carried out to make sure that the links to Social Platforms and the Official Site all worked fine. 
+Testing was also carried out to make sure that the links to Social Platforms and the Official Site all worked fine by accessing these on various devices. 
 
-Initially the link to the Madrid Store linked to the Adidas store, but when carrying out testing it didn't always work. Therefore this link was changed to the store on the Madrid Site. This actually worked out better as when testers were asked they felt it made this site feel more like an extension of the Official one.
+Initially the link to the Madrid Store linked to the Adidas store instead but when carrying out testing the link didn't always work, so it was changed to the store on the Madrid Site. This actually worked out better as when users were asked about the change they felt it made this site feel more like an extension of the Official one.
 
 ## DEPLOYMENT
 
@@ -202,13 +202,13 @@ Initially the link to the Madrid Store linked to the Adidas store, but when carr
 
 *** IFRAMES, IMG SOURCES & SOCIAL LINKS  ***
 
-## ADDITIONAL INFO
-
-Real Madrid is the football team I've always supported. Football as a whole, and Real specifically are areas I'm very passionate about. As this site is the first site I've built, I chose Real Madrid as my inspiration because I believe that building anything around a subject you have a strong passion and affinity for, makes the ability to convey these feelings across a lot easier.
-
 ### Acknowledgements
 
 *** MENTION PRECIOUS, THE WAWASWOOD GUY ***
+
+## ADDITIONAL INFO
+
+Real Madrid is the football team I've always supported. Football as a whole, and Real specifically are areas I'm very passionate about. As this site is the first site I've built, I chose Real Madrid as my inspiration because I believe that building anything around a subject you have a strong passion and affinity for, makes the ability to convey these feelings across a lot easier.
 
 ### Learning Outcomes
 

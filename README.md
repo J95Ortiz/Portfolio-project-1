@@ -134,11 +134,13 @@ Once completed, if they submit the form by pressing the button on the bottom of 
 
 The submitted form page is really simple and its only features are the navigation menu and footer present across all pages, as well as an image with a message wishing them good luck in the lotto. 
 
-From here they can return to any of the three main pages.
+From here they can return to any of the three main pages using the navitgation menu.
 
 *** SCREENSHOTS ***
 
 #### Future Features
+
+A feature I initially wanted to add was a quiz where the user could test their knowledge of the club and where a message would pop up when they completed it and based on their score it would compare them to a Real Madrid legend if they got a good score, or a flop if they didn't. When looking into this Javascript was required in order to store the answers, and as I don't know this language yet I'm unable to implement it at this stage. However it is an idea I'm keen on and would like to add once I'm capable.
 
 ## TESTING
 

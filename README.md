@@ -1,6 +1,6 @@
 # REAL MADRID LANDING PAGE
 
-*** AMIRESPONSIVE SCREENSHOT ***
+![AmIResponsive Screenshot](assets/readme_images/amiresponsive.jpg)
 
 ## INTRODUCTION
 
@@ -22,19 +22,27 @@ The user's experience and feel was the priority of the design, with the main aim
 
 The wireframes created to represent what the initial structure and layout for the site were created on Balsmiq. Although the layout of the final site does vary slightly from the initial wireframes these can be seen below:
 
-*** BALSAMIQ SCREENSHOTS ***
+![Balsamiq Screenshots](assets/readme_images/balsamiq_index_laptop_view.png)
+![Balsamiq Screenshots](assets/readme_images/balsamiq_squad_laptop_view.png)
+![Balsamiq Screenshots](assets/readme_images/balsamiq_quiz_laptop_view.png)
+![Balsamiq Screenshots](assets/readme_images/balsamiq_mobile_view.png)
+![Balsamiq Screenshots](assets/readme_images/balsamiq_index_tablet_view.png)
 
 ### Site Structure
 
 This Real Madrid site is split into 3 main pages:
 
 1. The Main Landing page
+
 2. The Squad page
+
 3. The Lotto page
 
 All of these are accessible for the user regardless on what page of the site they're on via the navigation menu at the top of their screen. 
 
 There is also a 4th page which will only be visible to the user once they complete and submit the form in the Lotto page. Following comments from a user, links were added to this page so they can return to any of the main pages directly from the menu rather than have to go back.
+
+4. The Submitted Form Page
 
 ### Design Choices
 
@@ -42,7 +50,7 @@ This Real Madrid landing/tribute page was designed to reflect the spirit of the 
 
 Even though the Club's main colour is white, the site was designed with a darker theme in mind as people tend to find this more appealing. This alternatice colour scheme should work as a nice contrast to the Official Real Madrid page which has a light theme with navy highlighted elements. The final colour scheme for the site prioritises navy, black and gold.
 
-*** COLOUR SCHEME SCREENSHOTS ***
+![Colour Scheme used on the site](assets/readme_images/real_madrid_page_colour_scheme.png)
 
 ## FEATURES
 
@@ -64,6 +72,10 @@ The Navigation Menu and Footer are displayed on all 4 pages of the site.
 
 #### Navigation bar and Dropdown Menu
 
+![Navigation Menu on Larger Screens](assets/readme_images/big_screen_header.jpg)
+
+![Navigation Dropdown Menu on Smaller Screens](assets/readme_images/dropdown_header.jpg)
+
 The navigation bar contains an image of the club's crest, the club's name and links to all three main pages. 
 
 It was designed to be flexible and appears differently across different devices depending on the screen size of the display.
@@ -74,41 +86,53 @@ On mobile screens (unless landscape), the links menu will appear as a dropdown w
 
 On larger screens and landscape phone the bar will appear as a menu instead with links to all the pages on display, and easily accessible.
 
-*** SCREENSHOTS OF NAV MENU ON PHONE AND LAPTOP ***
-
 #### Footer
+
+![Site Footer](assets/readme_images/footer.jpg)
 
 The footer was created to provide the user with links to the Club's social platforms and when clicked on these links open in a new tab for an increased user experience.
 
-*** SCREENSHOTS ***
-
 #### Index Page
+
+![Main Page Screenshot on Phone](assets/readme_images/index_page_screenshot_phone.jpg)
+
+![Main Page Screenshot on Laptop](assets/readme_images/index_page_screenshot.jpg)
 
 This is the main page the user will see when opening the site and is split into 4 main sections.
 
-The top section contains a table showing the club's all time goalscorers and the colour scheme used is based on their 22/23 away kit.
+![Top Section](assets/readme_images/top_section_screenshot.jpg)
 
-*** SCREENSHOTS ***
+The top section contains a table showing the club's all time goalscorers and the colour scheme used is based on their 22/23 away kit.
+![Goalscorers Table](assets/readme_images/scorers_table.jpg)
+
+![Goalscorers Section colour inspiration](assets/readme_images/top_scoreres_colour_theme.jpg)
 
 The top section also includes the trophies won by the first team in the last 5 years. The colour scheme for this information was based on this season's third kit.
 
-*** SCREENSHOTS ***
+![Trophies Section](assets/readme_images/trophies_table.jpg)
+
+![Trophies Section colour inspiration](assets/readme_images/main_theme.jpg)
 
 The middle section is taken up by a video showing the renovatoins on Real Madrid's Santiago Bernabeu stadium.
 
 The video was set up so it doesn't autoplay when the page is loaded, increasing the user's experiencce by making them feel they have full control over the site's behaviour.
 
-*** SCREENSHOTS ***
+![iframes Screenshot](assets/readme_images/iframes_secreenshot.jpg)
 
 The section below the video includes links to the other pages of the site, giving the user even more autonomy over how they choose to access these.
 
-*** SCREENSHOTS ***
+
+![Internal Links Screenshot](assets/readme_images/internal_links_screenshot.jpg)
 
 The last section on the main page contains two more links from which the user can visit the Official site of the club as well as the store on their website.
 
-*** SCREENSHOTS ***
+![Official Links Screenshot](assets/readme_images/official_links_screenshot.jpg)
 
 #### Squad Page
+
+![Squad Page Screenshot on Phone](assets/readme_images/squad_page_screenshot_phone.jpg)
+
+![Main Page Screenshot on Laptop](assets/readme_images/squad_page_screenshot.jpg)
 
 This page of the site contains the names and a photo of the first team's head coach and each of their members. 
 
@@ -116,9 +140,11 @@ The page is split into 5 sections based on the main positions on a football pitc
 
 The page is set out to be responsive and the amount of squad members' cards per row depends on the viewer's screen size. 
 
-*** SCREENSHOTS ***
+#### Lotto Page
 
-#### Form Page
+![Lotto Page Screenshot on Phone](assets/readme_images/lotto_page_screenshot_phone.jpg)
+
+![Main Page Screenshot on Laptop](assets/readme_images/lotto_page_screenshot.jpg)
 
 This page is a form that the user can fill and submit for a chance to meet a Real Madrid player.
 
@@ -128,15 +154,15 @@ The form also includes a dropdown with a list of the squad members, a radio opti
 
 Once completed, if they submit the form by pressing the button on the bottom of the form, the landing page is then displayed, and this is the only way the user would be able to access this page.
 
-*** SCREENSHOTS ***
-
 #### Submitted Form Page
+
+![Submitted Form Page Screenshot on Phone](assets/readme_images/submitted_page_screenshot_phone.jpg)
+
+![submitted Form Page Screenshot on Laptop](assets/readme_images/submitted_page_screenshot.jpg)
 
 The submitted form page is really simple and its only features are the navigation menu and footer present across all pages, as well as an image with a message wishing them good luck in the lotto. 
 
-From here they can return to any of the three main pages using the navitgation menu.
-
-*** SCREENSHOTS ***
+From here they can return to any of the three main pages using the navigation menu.
 
 #### Future Features
 
@@ -146,23 +172,24 @@ A feature I initially wanted to add was a quiz where the user could test their k
 
 ### Validator Testing
 
-*** HTML VALIDATION RESULTS FOR ALL PAGES ***
-
 The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to check the HTML code on all 4 pages, and they all passed. 
 
-INDEX PAGE
+Index Page:
+![Index Page Validation](assets/readme_images/index_page_validation.png)
 
-SQUAD PAGE
+SQUAD PAGE:
+![Squad Page Validation](assets/readme_images/squad_page_validation.png)
 
-LOTTO PAGE
+LOTTO PAGE:
+![Lotto Page Validation](assets/readme_images/lotto_page_validation.png)
 
-FORM SUBMISSION PAGE
-
-*** CSS VALIDATION RESULT ***
+FORM SUBMISSION PAGE:
+![Form Submission Page Validation](assets/readme_images/submitted_page_validation.png)
 
 The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the CSS code and it also passed.
 
-***CSS VALIDATION SCREENSHOT ***
+CSS:
+![CSS Page Validation](assets/readme_images/css_validaton.jpg)
 
 ### Troubleshooting
 
@@ -172,15 +199,12 @@ The first one was an issue with the settings on my Google Chrome application. Th
 
 The main issue with this was that text which appeared white to me and contrasted well with the black in the header, would show as black for other users. This bug was identified by my mentor Precious Ijege when he loaded the deployed site on his device. 
 
-*** SCREENSHOTS OF SITE WITH WRONG COLOURS ***
+![Colour Bug Screenshot 1](assets/readme_images/colour_bug_screenshot_1.jpg)
+![Colour Bug Screenshot 2](assets/readme_images/colour_bug_screenshot_2.jpg)
 
 Attempts to resolve this included specifying the colour in the code but this didn't resolve the issue. It was finally resolved by searching for the issue online, and the solution was found on the [Chrome Support page](https://support.google.com/chrome/thread/213362947/chrome-is-changing-color-theme-each-day-on-its-own?hl=en).  
 
-*** HIGHLIGHT HOW THE SITE IS FLEXIBLE ACROSS DIFFERENT SIZES ***
-
 In order to ensure that the website's responsiveness worked consistently regardless of screen size the site was tested on different devices. 
-
-*** OUTLINE WHAT TESTING DONE ***
 
 Once the site had been deployed and the colour issue resolved, links were sent to people I knew who had access to different devices such as tablets and different sized phones so they could test the site and see what they thought and how they felt it responded.
 

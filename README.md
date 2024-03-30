@@ -32,17 +32,17 @@ The wireframes created to represent what the initial structure and layout for th
 
 This Real Madrid site is split into 3 main pages:
 
-1. The Main Landing page
+1. [The Main Landing page](index.html)
 
-2. The Squad page
+2. [The Squad page](squad.html)
 
-3. The Lotto page
+3. [The Lotto page](form.html)
 
 All of these are accessible for the user regardless on what page of the site they're on via the navigation menu at the top of their screen. 
 
 There is also a 4th page which will only be visible to the user once they complete and submit the form in the Lotto page. Following comments from a user, links were added to this page so they can return to any of the main pages directly from the menu rather than have to go back.
 
-4. The Submitted Form Page
+4. [The Submitted Form Page](submitted_form.html)
 
 ### Design Choices
 
@@ -170,6 +170,12 @@ A feature I initially wanted to add was a quiz where the user could test their k
 
 ## TESTING
 
+### Performance & Accessibility
+
+![Lighthouse Report](<assets/readme_images/lighthouse _accessibility_report.jpg>)
+
+Prerformance testing was carried out using the [Lighthouse feature on Google Chrome's Dev Tools](https://googlechrome.github.io/lighthouse/viewer/).
+
 ### Validator Testing
 
 The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to check the HTML code on all 4 pages, and they all passed. 
@@ -214,33 +220,43 @@ Initially the link to the Madrid Store linked to the Adidas store instead but wh
 
 ## DEPLOYMENT
 
-*** STEPS A USER WOULD HAVE TO TAKE TO DEPLOY ***
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab.
+
+- From the source section drop-down menu, select the Master Branch.
+
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://j95ortiz.github.io/Real-Madrid-Portfolio-project-1/index.html
 
 ## CREDIT
 
+This project was inspired by the [Love Running Project](https://github.com/J95Ortiz/Love-Running-Project) produced by Code Institute for their [Full Stack Development Course](https://learn.codeinstitute.net/dashboard), although further credits can be found below.
+
 ### Content Credits
 
-*** ICONS, TOP SCORERS & TROPHIES INFO ***
+- The information regarding the club's all time scorers was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_Real_Madrid_CF_records_and_statistics#Goalscorers).
+
+- The information regarding the club's trophies was also taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_Real_Madrid_CF_records_and_statistics#Honours).
 
 ### Media Credits
 
-*** IFRAMES, IMG SOURCES & SOCIAL LINKS  ***
+- The Video about the Bernabeu's Stadium is a [Youtube video](https://www.youtube.com/watch?v=k6m6h2ukSU0) still on the site.
+
+- The Squad Members' Images were taken from the [Real Madrid Website](https://www.realmadrid.com/en-US/football/first-team/players).
+
+- The social links were also based on the links at the bottom of the [Real Madrid Website](https://www.realmadrid.com/en-US).
+
+- All other images used were taken from Google Images.
+
+- The favicon was created using the [Favicon Generator](https://realfavicongenerator.net/).
 
 ### Acknowledgements
 
-*** MENTION PRECIOUS, THE WAWASWOOD GUY ***
+I would like to mention my mentor [Precious Ijege](https://code-institute-room.slack.com/team/USMD0GEAD) for his support and input during the building process.
 
-## ADDITIONAL INFO
+I would also like to thank Ewan Colquhoun as the structure and README file in his [Wawas Woods Project](https://github.com/EwanColquhoun/wawaswoods) helped me when completing mine for this site.
 
-Real Madrid is the football team I've always supported. Football as a whole, and Real specifically are areas I'm very passionate about. As this site is the first site I've built, I chose Real Madrid as my inspiration because I believe that building anything around a subject you have a strong passion and affinity for, makes the ability to convey these feelings across a lot easier.
-
-### Learning Outcomes
-
-Better nunderstanding around flexbox, CSS & Positioning.
-
-Learned how to link different pages together & proved to myself I have the initiative to look for solutions online when I get stuck.
-
-It's a great learning processand helped me become better at planning and gave me exposure to various technologies and platforms which I'll be using in my future Web Development Career such as wireframes, repositories, favicons etc.
-
-
+A further thank you to the Student Support Team at Code Institute.
 

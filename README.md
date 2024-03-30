@@ -144,17 +144,49 @@ A feature I initially wanted to add was a quiz where the user could test their k
 
 ## TESTING
 
-*** HIGHLIGHT HOW THE SITE IS FLEXIBLE ACROSS DIFFERENT SIZES ***
-
-*** OUTLINE WHAT TESTING DONE ***
-
-### Troubleshooting
-
 ### Validator Testing
 
 *** HTML VALIDATION RESULTS FOR ALL PAGES ***
 
+The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to check the HTML code on all 4 pages, and they all passed. 
+
+INDEX PAGE
+
+SQUAD PAGE
+
+LOTTO PAGE
+
+FORM SUBMISSION PAGE
+
 *** CSS VALIDATION RESULT ***
+
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the CSS code and it also passed.
+
+CSS VALIDATION SCREENSHOT
+
+### Troubleshooting
+
+Throughout the building process a few bugs were identified and ultimately resolved.
+
+The first one was an issue with the settings on my Google Chrome application. The settings made the colours not appear correctly on my screen, so when the site was being built the colours I was seeing weren't the ones that users would see when deploying the site their end. 
+
+The main issue with this was that text which appeared white to me and contrasted well with the black in the header, would show as black for other users. This bug was identified by my mentor Precious Ijege when he loaded the deployed site on his device. 
+
+SCREENSHOTS OF SITE WITH WRONG COLOURS
+
+Attempts to resolve this included specifying the colour in the code but this didn't resolve the issue. It was finally resolved by searching for the issue online, and the [solution](https://support.google.com/chrome/thread/213362947/chrome-is-changing-color-theme-each-day-on-its-own?hl=en) was found on the Chrome Support page.  
+
+*** HIGHLIGHT HOW THE SITE IS FLEXIBLE ACROSS DIFFERENT SIZES ***
+
+In order to ensure that the website's responsiveness worked consistently regardless of screen size the site was tested on different devices. 
+
+*** OUTLINE WHAT TESTING DONE ***
+
+Once the site had been deployed, links to it were sent to people I knew who had access to different devices such as tablets and different sized phones so they could test the site.
+
+Testing was also carried out to make sure that the links to Social Platforms and the Official Site all worked fine. 
+
+Initially the link to the Madrid Store linked to the Adidas store, but when carrying out testing it didn't always work. Therefore this link was changed to the store on the Madrid Site. This actually worked out better as when testers were asked they felt it made this site feel more like an extension of the Official one.
 
 ## DEPLOYMENT
 

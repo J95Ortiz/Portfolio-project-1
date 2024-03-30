@@ -1,5 +1,7 @@
 # REAL MADRID LANDING PAGE
 
+*** AMIRESPONSIVE SCREENSHOT ***
+
 ## INTRODUCTION
 
 Real Madrid F.C. are one of the most successful clubs in football history. This site was created for anyone wanting to know more about the club's recent history, and was designed with the aim that a user feels like they are accessing a fan club extension of the official website.
@@ -37,8 +39,6 @@ There is also a 4th page which will only be visible to the user once they comple
 ### Design Choices
 
 This Real Madrid landing/tribute page was designed to reflect the spirit of the club as much as possible. The colour combinations used in the design were inspired by the club colours and also those of some of their kits.
-
-*** KITS SCREENSHOTS ***
 
 Even though the Club's main colour is white, the site was designed with a darker theme in mind as people tend to find this more appealing. This alternatice colour scheme should work as a nice contrast to the Official Real Madrid page which has a light theme with navy highlighted elements. The final colour scheme for the site prioritises navy, black and gold.
 

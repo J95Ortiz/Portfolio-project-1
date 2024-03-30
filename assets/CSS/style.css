@@ -249,7 +249,7 @@ div {
     text-decoration: none;
     padding: 0.25rem;
     background-color: rgba(255, 215, 0, 0.75);
-    color: #580099;
+    color: rgb(88, 0, 153);
     min-height: fit-content;
 }
 
